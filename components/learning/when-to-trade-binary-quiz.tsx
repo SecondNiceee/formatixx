@@ -3,7 +3,7 @@ import { Quiz } from "@/components/learning/quiz"
 export function WhenToTradeBinaryQuiz() {
   const questions = [
     {
-      question: "When is the Forex market open?",
+      question: "When is the Binary Options market open?",
       options: ["24 hours a day, 5 days a week", "9 AM to 5 PM only", "Only on weekends"],
       correctAnswer: 0,
       explanation:

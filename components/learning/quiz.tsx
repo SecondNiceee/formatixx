@@ -136,12 +136,23 @@ export function Quiz({ questions }: QuizProps) {
           return (
             <button
               key={index}
-              onClick={() => handleAnswerSelect(index)}
+              onPointerDown={(e) => {
+                e.currentTarget.style.transform = 'scale(0.98)'
+              }}
+              onPointerUp={(e) => {
+                e.currentTarget.style.transform = ''
+                if (!showResult) {
+                  handleAnswerSelect(index)
+                }
+              }}
+              onPointerLeave={(e) => {
+                e.currentTarget.style.transform = ''
+              }}
               disabled={showResult}
               type="button"
               className={cn(
-                "w-full flex items-center gap-4 p-4 rounded-xl border-2 transition-all duration-200 text-left cursor-pointer select-none",
-                "active:scale-[0.98]",
+                "w-full flex items-center gap-4 p-4 rounded-xl border-2 transition-colors duration-200 text-left cursor-pointer select-none touch-manipulation",
+                "relative z-10",
                 // Default state
                 !isSelected && !showResult && "border-white/20 bg-white/5 hover:border-white/40 hover:bg-white/10",
                 // Selected state (before submit)
