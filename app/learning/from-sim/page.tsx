@@ -7,7 +7,7 @@ import { FromSimQuiz } from "@/components/learning/from-sim-quiz"
 export default function FromSimPage() {
   return (
     <LessonLayout
-      title="From Sim"
+      title="From Simulator to Real Trading Platforms"
       category="Level Up"
       nextLesson={{
         title: "Continue Learning",
