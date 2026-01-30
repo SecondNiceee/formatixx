@@ -10,8 +10,8 @@ export default function SocialTradingBinaryPage() {
       title="Social Trading (Copy Trading)"
       category="Getting Started"
       nextLesson={{
-        title: "Why Trade Forex?",
-        href: "/learning/why-trade-forex",
+        title: "Basics",
+        href: "/learning/basics-binary",
       }}
       ContentComponent={SocialTradingBinaryContent}
       QuizComponent={SocialTradingBinaryQuiz}
