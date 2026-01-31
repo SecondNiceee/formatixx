@@ -82,7 +82,7 @@ export function BasicsBinaryContent() {
       {/* Supply and Demand */}
       <section>
         <h2 className="text-2xl font-bold text-white mb-4">SUPPLY AND DEMAND</h2>
-        <Card className="bg-gradient-to-br from-purple-900/30 to-blue-900/30 border-purple-500/30 p-6">
+        <Card className="bg-[#1a1035] border-purple-500/30 p-6">
           <p className="text-white/70 leading-relaxed mb-4">
             Like any market, binary options operate on the principle of supply and demand. When demand for a currency increases (more buyers than sellers), its value rises. When supply exceeds demand (more sellers than buyers), its value falls.
           </p>
