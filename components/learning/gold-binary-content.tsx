@@ -81,7 +81,7 @@ export function GoldBinaryContent() {
       {/* Trading Strategies */}
       <section>
         <h2 className="text-2xl font-bold text-white mb-4">TRADING STRATEGIES</h2>
-        <Card className="bg-purple-900/20 border-purple-500/30 p-6">
+        <Card className="bg-[#1a1035] border-purple-500/30 p-6">
           <p className="text-white/70 leading-relaxed mb-4">
             Understanding gold's movements can inform your binary options trading decisions:
           </p>
@@ -99,7 +99,7 @@ export function GoldBinaryContent() {
       {/* Key Takeaway */}
       <section>
         <h2 className="text-2xl font-bold text-white mb-4">KEY TAKEAWAY</h2>
-        <Card className="bg-gradient-to-br from-yellow-900/30 to-purple-900/30 border-yellow-500/30 p-6">
+        <Card className="bg-[#1a1520] border-yellow-500/30 p-6">
           <p className="text-white/70 leading-relaxed">
             Gold isn't just a commodity - it's a barometer for global economic sentiment and risk appetite. By monitoring gold prices and understanding their relationship with currencies, you gain valuable insight into market dynamics and potential trading opportunities.
           </p>

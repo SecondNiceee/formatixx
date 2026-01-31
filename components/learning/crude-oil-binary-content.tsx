@@ -114,7 +114,7 @@ export function CrudeOilBinaryContent() {
       {/* Trading Strategies */}
       <section>
         <h2 className="text-2xl font-bold text-white mb-4">TRADING STRATEGIES</h2>
-        <Card className="bg-purple-900/20 border-purple-500/30 p-6">
+        <Card className="bg-[#1a1035] border-purple-500/30 p-6">
           <ul className="space-y-3">
             {strategies.map((strategy, index) => (
               <li key={index} className="flex items-start gap-3">
@@ -128,7 +128,7 @@ export function CrudeOilBinaryContent() {
 
       {/* Key Takeaway */}
       <section>
-        <Card className="bg-gradient-to-br from-orange-900/30 to-purple-900/30 border-orange-500/30 p-6">
+        <Card className="bg-[#1a1520] border-orange-500/30 p-6">
           <p className="text-white/70 leading-relaxed">
             Oil prices don't just affect commodity traders - they're a crucial indicator for binary options traders. By understanding how oil movements impact different currencies, you can identify trading opportunities and better manage your positions in commodity-linked currency pairs.
           </p>

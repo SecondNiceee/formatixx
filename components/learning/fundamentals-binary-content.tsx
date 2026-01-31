@@ -71,7 +71,7 @@ export function FundamentalsBinaryContent() {
       {/* Central Bank Policy */}
       <section>
         <h2 className="text-2xl font-bold text-white mb-4">CENTRAL BANK POLICY</h2>
-        <Card className="bg-purple-900/20 border-purple-500/30 p-6">
+        <Card className="bg-[#1a1035] border-purple-500/30 p-6">
           <p className="text-white/70 leading-relaxed mb-4">
             Central banks like the Federal Reserve (U.S.), European Central Bank (ECB), and Bank of England (BoE) have enormous influence over currency values through monetary policy decisions.
           </p>
@@ -91,7 +91,7 @@ export function FundamentalsBinaryContent() {
       {/* Putting It All Together */}
       <section>
         <h2 className="text-2xl font-bold text-white mb-4">PUTTING IT ALL TOGETHER</h2>
-        <Card className="bg-gradient-to-br from-purple-900/30 to-blue-900/30 border-purple-500/30 p-6">
+        <Card className="bg-[#1a1035] border-purple-500/30 p-6">
           <p className="text-white/70 leading-relaxed mb-4">
             Successful binary options traders use an economic calendar to track when important data releases and central bank meetings are scheduled. These events can create significant market volatility and trading opportunities.
           </p>

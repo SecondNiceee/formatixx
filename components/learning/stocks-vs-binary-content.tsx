@@ -86,7 +86,7 @@ export function StocksVsBinaryContent() {
       {/* Which Is Better */}
       <section>
         <h2 className="text-2xl font-bold text-white mb-4">WHICH IS BETTER FOR YOU?</h2>
-        <Card className="bg-purple-900/20 border-purple-500/30 p-6">
+        <Card className="bg-[#1a1035] border-purple-500/30 p-6">
           <p className="text-white/70 leading-relaxed mb-6">
             Neither market is inherently "better" - it depends on your circumstances and preferences:
           </p>
@@ -119,7 +119,7 @@ export function StocksVsBinaryContent() {
 
       {/* Remember */}
       <section>
-        <Card className="bg-gradient-to-br from-purple-900/30 to-blue-900/30 border-purple-500/30 p-6">
+        <Card className="bg-[#1a1035] border-purple-500/30 p-6">
           <p className="text-purple-300 font-medium">
             Remember: Many successful traders eventually participate in both markets. You don't have to choose just one - you can diversify your trading across multiple asset classes as you gain experience!
           </p>
