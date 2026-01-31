@@ -130,42 +130,60 @@ export function Quiz({ questions }: QuizProps) {
       <div className="space-y-3 mb-6">
         {question.options.map((option, index) => {
           const label = String.fromCharCode(65 + index) // A, B, C, D
+          const isSelected = selectedAnswer === index
+          const isCorrectAnswer = index === question.correctAnswer
+          
           return (
             <button
               key={index}
-              onClick={() => handleAnswerSelect(index)}
+              onPointerDown={(e) => {
+                e.currentTarget.style.transform = 'scale(0.98)'
+              }}
+              onPointerUp={(e) => {
+                e.currentTarget.style.transform = ''
+                if (!showResult) {
+                  handleAnswerSelect(index)
+                }
+              }}
+              onPointerLeave={(e) => {
+                e.currentTarget.style.transform = ''
+              }}
               disabled={showResult}
+              type="button"
               className={cn(
-                "w-full flex items-center gap-4 p-4 rounded-xl border-2 transition-all text-left",
-                selectedAnswer === index
-                  ? showResult
-                    ? isCorrect
-                      ? "border-green-500 bg-green-500/20"
-                      : "border-red-500 bg-red-500/20"
-                    : "border-purple-500 bg-purple-500/20"
-                  : "border-white/20 bg-white/5 hover:border-white/40",
-                showResult && index === question.correctAnswer && "border-green-500 bg-green-500/20",
+                "w-full flex items-center gap-4 p-4 rounded-xl border-2 transition-colors duration-200 text-left cursor-pointer select-none touch-manipulation",
+                "relative z-10",
+                // Default state
+                !isSelected && !showResult && "border-white/20 bg-white/5 hover:border-white/40 hover:bg-white/10",
+                // Selected state (before submit)
+                isSelected && !showResult && "border-purple-500 bg-purple-500/30 shadow-lg shadow-purple-500/20 scale-[1.01]",
+                // After submit - correct answer
+                showResult && isCorrectAnswer && "border-green-500 bg-green-500/30 shadow-lg shadow-green-500/20",
+                // After submit - wrong selected answer
+                showResult && isSelected && !isCorrectAnswer && "border-red-500 bg-red-500/30 shadow-lg shadow-red-500/20",
+                // Disabled state
+                showResult && "cursor-default"
               )}
             >
               <span
                 className={cn(
-                  "w-8 h-8 rounded-lg flex items-center justify-center font-bold text-sm",
-                  selectedAnswer === index
-                    ? showResult
-                      ? isCorrect
-                        ? "bg-green-500 text-white"
-                        : index === question.correctAnswer
-                          ? "bg-green-500 text-white"
-                          : "bg-red-500 text-white"
-                      : "bg-purple-500 text-white"
-                    : showResult && index === question.correctAnswer
-                      ? "bg-green-500 text-white"
-                      : "bg-white/10 text-white",
+                  "w-10 h-10 rounded-lg flex items-center justify-center font-bold text-sm shrink-0 transition-all duration-200",
+                  // Default state
+                  !isSelected && !showResult && "bg-white/10 text-white",
+                  // Selected state (before submit)
+                  isSelected && !showResult && "bg-purple-500 text-white scale-110",
+                  // After submit - correct answer
+                  showResult && isCorrectAnswer && "bg-green-500 text-white",
+                  // After submit - wrong selected answer
+                  showResult && isSelected && !isCorrectAnswer && "bg-red-500 text-white",
                 )}
               >
                 {label}
               </span>
-              <span className="text-white">{option}</span>
+              <span className={cn(
+                "text-white transition-all duration-200",
+                isSelected && !showResult && "font-medium"
+              )}>{option}</span>
             </button>
           )
         })}

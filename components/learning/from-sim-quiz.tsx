@@ -3,44 +3,35 @@ import { Quiz } from "@/components/learning/quiz"
 export function FromSimQuiz() {
   const questions = [
     {
-      question: "How should you start live trading?",
-      options: [
-        "Large positions for big profits",
-        "Minimum account, smallest sizes",
-        "Same as demo size",
-        "Maximum leverage",
-      ],
+      question: "Which trading platform is considered the most popular worldwide for binary options trading?",
+      options: ["TradingView", "Quotex", "cTrader", "NinjaTrader"],
       correctAnswer: 1,
-      explanation: "Start with the minimum account size and smallest position sizes to ease into live trading.",
+      explanation:
+        "Quotex is the most popular binary options trading platform worldwide, known for its reliability and extensive technical indicators.",
     },
     {
-      question: "What should you expect when trading with real money?",
-      options: ["Same emotions as demo", "No emotions", "Stronger emotions like fear and greed", "Pure logic"],
+      question: "What is the most important factor when choosing a binary options broker?",
+      options: [
+        "The size of welcome bonuses",
+        "Regulation by reputable financial authorities",
+        "The number of available currency pairs",
+        "Social media follower count",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Regulation by reputable authorities (like FCA, ASIC, or CySEC) is the most important factor. It ensures your funds are protected, and the broker operates with transparency and accountability.",
+    },
+    {
+      question: "What should you do before depositing real money on a new trading platform?",
+      options: [
+        "Immediately deposit the maximum amount",
+        "Skip the demo and start trading live",
+        "Practice on their demo account for 1-2 weeks",
+        "Only read the promotional materials",
+      ],
       correctAnswer: 2,
       explanation:
-        "Real money creates stronger emotions including fear, greed, and excitement that weren't present in demo.",
-    },
-    {
-      question: "Should you change your strategy when going live?",
-      options: [
-        "Yes, completely different approach",
-        "No, trade exactly as in demo",
-        "Yes, more aggressive",
-        "Yes, more conservative",
-      ],
-      correctAnswer: 1,
-      explanation: "Trade exactly as you did in demo - don't change your proven strategy when going live.",
-    },
-    {
-      question: "When should you increase position size?",
-      options: [
-        "Immediately if first trade wins",
-        "After consistent profitability",
-        "When you feel confident",
-        "Never increase",
-      ],
-      correctAnswer: 1,
-      explanation: "Only increase position size gradually after achieving consistent profitability with smaller sizes.",
+        "Even if you've practiced on other simulators, you should spend 1-2 weeks on the new platform's demo account to familiarize yourself with its unique features, interface, and order execution process.",
     },
   ]
 
