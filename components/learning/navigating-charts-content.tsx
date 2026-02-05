@@ -8,7 +8,7 @@ export function NavigatingChartsContent() {
       <Card className="border border-[#5F0BE8]/20 bg-[#1a0f2e]/60 backdrop-blur-sm p-6 rounded-2xl">
         <h2 className="text-xl font-bold text-white mb-4">UNDERSTANDING TRADING CHARTS</h2>
         <p className="text-white/80 text-base leading-relaxed mb-4">
-          Charts are the primary tool for technical analysis in forex trading. They display price movements over time,
+          Charts are the primary tool for technical analysis in binary options trading. They display price movements over time,
           helping traders identify patterns, trends, and potential trading opportunities.
         </p>
         <p className="text-white/80 text-base leading-relaxed">

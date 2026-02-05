@@ -7,7 +7,7 @@ export function WhenToTradeBinaryQuiz() {
       options: ["24 hours a day, 5 days a week", "9 AM to 5 PM only", "Only on weekends"],
       correctAnswer: 0,
       explanation:
-        "The Forex market operates 24 hours a day, 5 days a week, from Sunday evening to Friday afternoon.",
+        "The binary options market operates 24 hours a day, 5 days a week, from Sunday evening to Friday afternoon.",
     },
     {
       question: "Which trading session has the highest volume?",
