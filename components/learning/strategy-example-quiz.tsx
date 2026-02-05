@@ -112,10 +112,10 @@ export function StrategyExampleQuiz({ onBack }: StrategyExampleQuizProps) {
               )}
 
               <div className="flex gap-4">
-                <Button onClick={handleRestart} variant="outline" className="flex-1 bg-transparent">
+                <Button onClick={handleRestart} className="flex-1 bg-white/10 hover:bg-white/20 text-white border-2 border-white/30 hover:border-white/50">
                   Retake Quiz
                 </Button>
-                <Button onClick={onBack} className="flex-1 bg-purple-600 hover:bg-purple-700">
+                <Button onClick={onBack} className="flex-1 bg-purple-600 hover:bg-purple-700 text-white">
                   Back to Lesson
                 </Button>
               </div>
