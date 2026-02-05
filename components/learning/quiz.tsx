@@ -155,8 +155,8 @@ export function Quiz({ questions }: QuizProps) {
                 "relative z-10",
                 // Default state
                 !isSelected && !showResult && "border-white/20 bg-white/5 hover:border-white/40 hover:bg-white/10",
-                // Selected state (before submit)
-                isSelected && !showResult && "border-purple-500 bg-purple-500/30 shadow-lg shadow-purple-500/20 scale-[1.01]",
+                // Selected state (before submit) - more visible purple highlight
+                isSelected && !showResult && "border-purple-400 border-[3px] bg-purple-600/50 shadow-lg shadow-purple-500/40 scale-[1.02]",
                 // After submit - correct answer
                 showResult && isCorrectAnswer && "border-green-500 bg-green-500/30 shadow-lg shadow-green-500/20",
                 // After submit - wrong selected answer
@@ -170,8 +170,8 @@ export function Quiz({ questions }: QuizProps) {
                   "w-10 h-10 rounded-lg flex items-center justify-center font-bold text-sm shrink-0 transition-all duration-200",
                   // Default state
                   !isSelected && !showResult && "bg-white/10 text-white",
-                  // Selected state (before submit)
-                  isSelected && !showResult && "bg-purple-500 text-white scale-110",
+                  // Selected state (before submit) - brighter purple for visibility
+                  isSelected && !showResult && "bg-purple-500 text-white scale-110 ring-2 ring-purple-300",
                   // After submit - correct answer
                   showResult && isCorrectAnswer && "bg-green-500 text-white",
                   // After submit - wrong selected answer
@@ -182,7 +182,7 @@ export function Quiz({ questions }: QuizProps) {
               </span>
               <span className={cn(
                 "text-white transition-all duration-200",
-                isSelected && !showResult && "font-medium"
+                isSelected && !showResult && "font-semibold text-purple-100"
               )}>{option}</span>
             </button>
           )
