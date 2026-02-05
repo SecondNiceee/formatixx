@@ -7,7 +7,7 @@ import { BarChart3, GraduationCap, MessageSquareText, Settings, LogOut, Menu, X 
 import { cn } from "@/lib/utils"
 import { useLanguage } from "@/lib/i18n/language-context"
 import { useRouter } from "next/navigation"
-import { AUTH_CHANGE_EVENT, isUserAuthenticated, notifyAuthChange } from "@/lib/auth-utils"
+import { AUTH_CHANGE_EVENT, isUserAuthenticated, notifyAuthChange, shouldIgnoreAuth } from "@/lib/auth-utils"
 
 export function AppSidebar() {
   const pathname = usePathname()
@@ -43,7 +43,10 @@ export function AppSidebar() {
     checkAuthStatus()
   }, [checkAuthStatus, pathname])
 
-  if (!isLoggedIn || pathname === "/") {
+  // Show sidebar if logged in OR if auth is ignored (except on home page)
+  const showSidebar = (isLoggedIn || shouldIgnoreAuth()) && pathname !== "/"
+  
+  if (!showSidebar) {
     return null
   }
 

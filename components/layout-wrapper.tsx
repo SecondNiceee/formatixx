@@ -2,7 +2,7 @@
 
 import React from "react"
 import { usePathname } from "next/navigation"
-import { AUTH_CHANGE_EVENT, isUserAuthenticated } from "@/lib/auth-utils"
+import { AUTH_CHANGE_EVENT, isUserAuthenticated, shouldIgnoreAuth } from "@/lib/auth-utils"
 // Компонент-обертка для основного контента
 // Добавляет отступ слева только когда пользователь залогинен (чтобы контент не перекрывался sidebar)
 // Когда пользователь НЕ залогинен - sidebar скрыт, отступ не нужен
@@ -35,7 +35,8 @@ export function LayoutWrapper({ children }: LayoutWrapperProps) {
     checkAuthStatus()
   }, [checkAuthStatus, pathname])
 
-  const shouldAddPadding = isLoggedIn && pathname !== "/"
+  // Add padding if logged in OR if auth is ignored (except on home page)
+  const shouldAddPadding = (isLoggedIn || shouldIgnoreAuth()) && pathname !== "/"
 
   return (
     <div className={shouldAddPadding ? "pl-0 md:pl-[68px] rtl:pr-0 rtl:md:pr-[68px] rtl:md:pl-0" : "pl-0 rtl:pr-0"}>

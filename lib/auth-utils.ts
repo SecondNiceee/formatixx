@@ -1,3 +1,12 @@
+/**
+ * Check if auth should be ignored based on NEXT_PUBLIC_IGNORE_AUTH env variable
+ * Returns true if the variable is set to any non-empty value (1, true, TRUE, etc.)
+ */
+export function shouldIgnoreAuth(): boolean {
+  const ignoreAuth = process.env.NEXT_PUBLIC_IGNORE_AUTH
+  return !!(ignoreAuth && ignoreAuth.trim() !== "")
+}
+
 export function isUserAuthenticated(): boolean {
   // Check if dev mode is enabled
   const isDevMode = process.env.NEXT_PUBLIC_IS_USER_ALWAYS_IN === "true"
