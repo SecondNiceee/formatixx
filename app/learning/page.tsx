@@ -8,8 +8,6 @@ import { ChevronRight, DollarSign, Rocket, BarChart3, TrendingUp, Shield, Trophy
 import { useLanguage } from "@/lib/i18n/language-context"
 import { useProtectedRoute } from "@/hooks/use-protected-route"
 
-const TEMPORARY_BYPASS_AUTH_LEARNING = true
-
 const learningTopics = [
   {
     id: 1,
@@ -105,11 +103,7 @@ const learningTopics = [
 
 export default function LearningPage() {
   const { t } = useLanguage()
-  const protectedRoute = useProtectedRoute("Please login to access learning materials")
-
-  if (!TEMPORARY_BYPASS_AUTH_LEARNING && protectedRoute) {
-    return null
-  }
+  useProtectedRoute("Please login to access learning materials")
 
   return (
     <div className="min-h-screen relative overflow-hidden">

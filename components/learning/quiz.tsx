@@ -155,8 +155,8 @@ export function Quiz({ questions }: QuizProps) {
                 "relative z-10",
                 // Default state
                 !isSelected && !showResult && "border-white/20 bg-white/5 hover:border-white/40 hover:bg-white/10",
-                // Selected state (before submit)
-                isSelected && !showResult && "border-purple-500 bg-purple-500/30 shadow-lg shadow-purple-500/20 scale-[1.01]",
+                // Selected state (before submit) - bright purple background with strong glow
+                isSelected && !showResult && "border-purple-400 border-[3px] bg-purple-600/60 shadow-[0_0_25px_rgba(168,85,247,0.7)] scale-[1.02]",
                 // After submit - correct answer
                 showResult && isCorrectAnswer && "border-green-500 bg-green-500/30 shadow-lg shadow-green-500/20",
                 // After submit - wrong selected answer
@@ -167,22 +167,22 @@ export function Quiz({ questions }: QuizProps) {
             >
               <span
                 className={cn(
-                  "w-10 h-10 rounded-lg flex items-center justify-center font-bold text-sm shrink-0 transition-all duration-200",
-                  // Default state
-                  !isSelected && !showResult && "bg-white/10 text-white",
-                  // Selected state (before submit)
-                  isSelected && !showResult && "bg-purple-500 text-white scale-110",
+                  "w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm shrink-0 transition-all duration-200 border-2",
+                  // Default state - circle outline
+                  !isSelected && !showResult && "bg-transparent border-white/40 text-white",
+                  // Selected state (before submit) - filled bright circle
+                  isSelected && !showResult && "bg-purple-500 border-purple-300 text-white scale-110 shadow-[0_0_20px_rgba(168,85,247,1)]",
                   // After submit - correct answer
-                  showResult && isCorrectAnswer && "bg-green-500 text-white",
+                  showResult && isCorrectAnswer && "bg-green-500 border-green-300 text-white",
                   // After submit - wrong selected answer
-                  showResult && isSelected && !isCorrectAnswer && "bg-red-500 text-white",
+                  showResult && isSelected && !isCorrectAnswer && "bg-red-500 border-red-300 text-white",
                 )}
               >
                 {label}
               </span>
               <span className={cn(
                 "text-white transition-all duration-200",
-                isSelected && !showResult && "font-medium"
+                isSelected && !showResult && "font-bold text-white"
               )}>{option}</span>
             </button>
           )

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
-import { isUserAuthenticated } from "@/lib/auth-utils"
+import { isUserAuthenticated, shouldIgnoreAuth } from "@/lib/auth-utils"
 import { toast } from "sonner"
 
 /**
@@ -23,6 +23,12 @@ export function useProtectedRoute(redirectMessage: string = "Please login to con
   const [isChecking, setIsChecking] = useState(true)
 
   useEffect(() => {
+    // If auth is ignored via env variable, skip all checks
+    if (shouldIgnoreAuth()) {
+      setIsChecking(false)
+      return
+    }
+
     // Add a small delay to allow localStorage to be fully updated after redirect
     // This prevents race conditions where the auth state hasn't been updated yet
     const delayedCheck = setTimeout(() => {
@@ -46,7 +52,7 @@ export function useProtectedRoute(redirectMessage: string = "Please login to con
 
     // Also listen for storage changes (logout from another tab)
     const handleStorageChange = () => {
-      if (!isUserAuthenticated()) {
+      if (!shouldIgnoreAuth() && !isUserAuthenticated()) {
         toast.warning(redirectMessage, {
           duration: 3000,
         })
