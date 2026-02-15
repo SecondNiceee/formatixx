@@ -203,6 +203,18 @@ export const translations = {
       center: "Center",
       comingSoon:
         "Educational content and trading tutorials coming soon. Stay tuned for comprehensive learning materials.",
+      section1: {
+        title: "Getting Started",
+        subtitle: "Your Trading Journey",
+      },
+      section2: {
+        title: "The Money Makers",
+        subtitle: "What Moves Markets",
+      },
+      section3: {
+        title: "Reading the Market",
+        subtitle: "Master the Charts",
+      },
     },
 
     // Trading Review Page - Added imagePasted key
@@ -475,6 +487,18 @@ export const translations = {
       center: "Aprendizaje",
       comingSoon:
         "Contenido educativo y tutoriales de trading próximamente. Mantente atento a materiales de aprendizaje completos.",
+      section1: {
+        title: "Primeros Pasos",
+        subtitle: "Tu Viaje de Trading",
+      },
+      section2: {
+        title: "Los Generadores de Dinero",
+        subtitle: "Lo Que Mueve los Mercados",
+      },
+      section3: {
+        title: "Leyendo el Mercado",
+        subtitle: "Domina los Gráficos",
+      },
     },
 
     // Trading Review Page - Added imagePasted key
@@ -747,6 +771,18 @@ export const translations = {
       center: "Aprendizado",
       comingSoon:
         "Conteúdo educacional e tutoriais de trading em breve. Fique atento para materiais de aprendizado completos.",
+      section1: {
+        title: "Começando",
+        subtitle: "Sua Jornada de Trading",
+      },
+      section2: {
+        title: "Os Geradores de Dinheiro",
+        subtitle: "O Que Move os Mercados",
+      },
+      section3: {
+        title: "Lendo o Mercado",
+        subtitle: "Domine os Gráficos",
+      },
     },
 
     // Trading Review Page - Added imagePasted key
@@ -1013,7 +1049,20 @@ export const translations = {
     learning: {
       title: "مركز",
       center: "التعلم",
-      comingSoon: "المحتوى التعليمي ودروس التداول قادمة قريباً. ترقب مواد تعليمية شاملة.",
+      comingSoon:
+        "سيتم إتاحة محتوى تعليمي وبرامج تعليمية للتداول قريباً. ابقَ على اطلاع على مواد التعلم الشاملة.",
+      section1: {
+        title: "البداية",
+        subtitle: "رحلتك في التداول",
+      },
+      section2: {
+        title: "مولدات الأموال",
+        subtitle: "ما يحرك الأسواق",
+      },
+      section3: {
+        title: "قراءة السوق",
+        subtitle: "احترف الرسوم البيانية",
+      },
     },
 
     // Trading Review Page - Added imagePasted key

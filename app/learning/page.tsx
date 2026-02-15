@@ -8,11 +8,12 @@ import { ChevronRight, DollarSign, Rocket, BarChart3, TrendingUp, Shield, Trophy
 import { useLanguage } from "@/lib/i18n/language-context"
 import { useProtectedRoute } from "@/hooks/use-protected-route"
 
-const learningTopics = [
+// This function creates learning topics with translations
+const getLearningTopics = (t: any) => [
   {
     id: 1,
-    title: "Getting Started",
-    subtitle: "Your Trading Journey",
+    title: t.learning.section1.title || "Getting Started",
+    subtitle: t.learning.section1.subtitle || "Your Trading Journey",
     icon: Rocket,
     lessons: [
       { title: "Why Trade Binary Options?", href: "/learning/why-trade-binary" },
@@ -23,8 +24,8 @@ const learningTopics = [
   },
   {
     id: 2,
-    title: "The Money Makers",
-    subtitle: "What Moves Markets",
+    title: t.learning.section2.title || "The Money Makers",
+    subtitle: t.learning.section2.subtitle || "What Moves Markets",
     icon: DollarSign,
     lessons: [
       { title: "Basics", href: "/learning/basics-binary" },
@@ -37,8 +38,8 @@ const learningTopics = [
   },
   {
     id: 3,
-    title: "Reading the Market",
-    subtitle: "Master the Charts",
+    title: t.learning.section3.title || "Reading the Market",
+    subtitle: t.learning.section3.subtitle || "Master the Charts",
     icon: BarChart3,
     lessons: [
       { title: "Navigating The Charts", href: "/learning/navigating-the-charts" },
@@ -49,61 +50,62 @@ const learningTopics = [
       { title: "Candlestick Patterns", href: "/learning/candlestick-patterns" },
     ],
   },
-  {
-    id: 4,
-    title: "Your Trading Toolkit",
-    subtitle: "Essential Indicators",
-    icon: TrendingUp,
-    lessons: [
-      { title: "Volume Indicator", href: "/learning/volume-indicator" },
-      { title: "Moving Average", href: "/learning/moving-average" },
-      { title: "Relative Strength Index", href: "/learning/rsi" },
-    ],
-  },
-  {
-    id: 5,
-    title: "Winning Strategies",
-    subtitle: "Trade Like a Pro",
-    icon: Trophy,
-    lessons: [
-      { title: "Top Down Trading Strategy", href: "/learning/top-down-trading" },
-      { title: "Example", href: "/learning/strategy-example" },
-    ],
-  },
-  {
-    id: 6,
-    title: "Execute & Profit",
-    subtitle: "Making Your Move",
-    icon: Target,
-    lessons: [
-      { title: "Buying and Selling", href: "/learning/buying-and-selling" },
-      { title: "Pick Your Trading Style", href: "/learning/pick-trading-style" },
-    ],
-  },
-  {
-    id: 7,
-    title: "Protect Your Capital",
-    subtitle: "Stay in the Game",
-    icon: Shield,
-    lessons: [{ title: "Risk Management", href: "/learning/risk-management" }],
-  },
-  {
-    id: 8,
-    title: "Level Up",
-    subtitle: "Beyond the Basics",
-    icon: BarChart3,
-    lessons: [
-      { title: "Smart Portfolios", href: "/learning/smart-portfolios" },
-      { title: "Trading Cryptocurrencies", href: "/learning/trading-cryptocurrencies" },
-      { title: "Are You Ready For Real Trading?", href: "/learning/ready-for-real-trading" },
-      { title: "From Sim", href: "/learning/from-sim" },
-    ],
-  },
-]
+    {
+      id: 4,
+      title: "Your Trading Toolkit",
+      subtitle: "Essential Indicators",
+      icon: TrendingUp,
+      lessons: [
+        { title: "Volume Indicator", href: "/learning/volume-indicator" },
+        { title: "Moving Average", href: "/learning/moving-average" },
+        { title: "Relative Strength Index", href: "/learning/rsi" },
+      ],
+    },
+    {
+      id: 5,
+      title: "Winning Strategies",
+      subtitle: "Trade Like a Pro",
+      icon: Trophy,
+      lessons: [
+        { title: "Top Down Trading Strategy", href: "/learning/top-down-trading" },
+        { title: "Example", href: "/learning/strategy-example" },
+      ],
+    },
+    {
+      id: 6,
+      title: "Execute & Profit",
+      subtitle: "Making Your Move",
+      icon: Target,
+      lessons: [
+        { title: "Buying and Selling", href: "/learning/buying-and-selling" },
+        { title: "Pick Your Trading Style", href: "/learning/pick-trading-style" },
+      ],
+    },
+    {
+      id: 7,
+      title: "Protect Your Capital",
+      subtitle: "Stay in the Game",
+      icon: Shield,
+      lessons: [{ title: "Risk Management", href: "/learning/risk-management" }],
+    },
+    {
+      id: 8,
+      title: "Level Up",
+      subtitle: "Beyond the Basics",
+      icon: BarChart3,
+      lessons: [
+        { title: "Smart Portfolios", href: "/learning/smart-portfolios" },
+        { title: "Trading Cryptocurrencies", href: "/learning/trading-cryptocurrencies" },
+        { title: "Are You Ready For Real Trading?", href: "/learning/ready-for-real-trading" },
+        { title: "From Sim", href: "/learning/from-sim" },
+      ],
+    },
+  ]
+}
 
 export default function LearningPage() {
   const { t } = useLanguage()
-  useProtectedRoute("Please login to access learning materials")
+  // useProtectedRoute("Please login to access learning materials") // Temporarily disabled for public access
 
   return (
     <div className="min-h-screen relative overflow-hidden">
@@ -131,7 +133,7 @@ export default function LearningPage() {
 
           {/* Topics grid */}
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {learningTopics.map((topic) => {
+            {getLearningTopics(t).map((topic) => {
               const Icon = topic.icon
               return (
                 <Card
