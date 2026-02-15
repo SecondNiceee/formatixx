@@ -1,15 +1,17 @@
+"use client"
+
+import { useLanguage } from "@/lib/i18n/language-context"
+
 export function SocialTradingBinaryContent() {
+  const { t } = useLanguage()
+  const s = t.learning.lessons.socialTradingBinary.sections
+
   return (
     <div className="space-y-6">
       <section>
-        <h2 className="text-2xl font-bold text-white mb-4">Social Trading (Copy Trading)</h2>
-        <p className="text-white/80 leading-relaxed mb-4">Make professionals work for you</p>
-        <p className="text-white/80 leading-relaxed mb-4">
-          If you are too busy to follow the news and monitor the charts all day, it is possible to participate in Binary
-          Options trading in an easier and less time-consuming way. Social Trading allows you to connect with
-          experienced traders, see their performance statistics (including gain percentages), discuss their trading
-          ideas, learn from their mistakes and copy their successful strategies.
-        </p>
+        <h2 className="text-2xl font-bold text-white mb-4">{s.intro}</h2>
+        <p className="text-white/80 leading-relaxed mb-4">{s.subtitle}</p>
+        <p className="text-white/80 leading-relaxed mb-4">{s.content1}</p>
         <div className="bg-purple-600/20 border border-purple-500/30 rounded-xl p-4 my-4">
           <p className="text-purple-300 font-semibold text-center">
             In essence, you make professionals work for you.

@@ -1,27 +1,30 @@
+"use client"
+
+import { useLanguage } from "@/lib/i18n/language-context"
 import { Quiz } from "@/components/learning/quiz"
 
 export function WhyTradeBinaryQuiz() {
+  const { t } = useLanguage()
+  const q = t.learning.lessons.whyTradeBinary.quiz
+
   const questions = [
     {
-      question: "When is it possible to trade currencies?",
-      options: ["Round the clock", "9:00 - 17:00", "9:00 - 18:00"],
+      question: q.q1,
+      options: [q.q1o1, q.q1o2, q.q1o3],
       correctAnswer: 0,
-      explanation:
-        "Binary Options trading is available round the clock, allowing you to trade at any time that suits your schedule.",
+      explanation: q.q1a,
     },
     {
-      question: "Currency fluctuations can be used to:",
-      options: ["Incur losses", "Make a profit", "Wait"],
+      question: q.q2,
+      options: [q.q2o1, q.q2o2, q.q2o3],
       correctAnswer: 1,
-      explanation:
-        "Currency fluctuations create opportunities to make profits by correctly predicting price movements.",
+      explanation: q.q2a,
     },
     {
-      question: "What is the recommended trading amount in Binary Options?",
-      options: ["500 USD", "250 USD", "100 USD"],
+      question: q.q3,
+      options: [q.q3o1, q.q3o2, q.q3o3],
       correctAnswer: 1,
-      explanation:
-        "Starting with $250 is recommended as it provides enough capital to manage trades while keeping risk manageable.",
+      explanation: q.q3a,
     },
   ]
 
