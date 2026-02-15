@@ -1,31 +1,24 @@
+"use client"
+
+import { useLanguage } from "@/lib/i18n/language-context"
 import { Quiz } from "@/components/learning/quiz"
 
 export function WhenToTradeBinaryQuiz() {
+  const { t } = useLanguage()
+  const q = t.learning.lessons.whenToTradeBinary.quiz
+
   const questions = [
     {
-      question: "When is the Binary Options market open?",
-      options: ["24 hours a day, 5 days a week", "9 AM to 5 PM only", "Only on weekends"],
+      question: q.q1,
+      options: [q.q1o1, q.q1o2, q.q1o3],
       correctAnswer: 0,
-      explanation:
-        "The binary options market operates 24 hours a day, 5 days a week, from Sunday evening to Friday afternoon.",
+      explanation: q.q1a,
     },
     {
-      question: "Which trading session has the highest volume?",
-      options: ["Asian session", "London session", "New York session"],
+      question: q.q2,
+      options: [q.q2o1, q.q2o2, q.q2o3],
       correctAnswer: 1,
-      explanation:
-        "The London session, especially during its overlap with New York (8 am to 12 pm ET), has the highest trading volume.",
-    },
-    {
-      question: "When do major market overlaps occur?",
-      options: [
-        "When Asian and European markets are open",
-        "When European and US markets overlap",
-        "During weekends",
-      ],
-      correctAnswer: 1,
-      explanation:
-        "The overlap between European (London) and US (New York) markets from 8 am to 12 pm ET is the most active trading period.",
+      explanation: q.q2a,
     },
   ]
 

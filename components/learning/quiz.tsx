@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { useLanguage } from "@/lib/i18n/language-context"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { CheckCircle2, XCircle, RotateCcw } from "lucide-react"
@@ -18,6 +19,7 @@ interface QuizProps {
 }
 
 export function Quiz({ questions }: QuizProps) {
+  const { t } = useLanguage()
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null)
   const [showResult, setShowResult] = useState(false)
@@ -70,17 +72,17 @@ export function Quiz({ questions }: QuizProps) {
         <div className="flex flex-col items-center justify-center py-8 text-center">
           <XCircle className="w-16 h-16 text-red-500 mb-6" />
           <h3 className="text-2xl font-bold text-white mb-2">
-            Oops, <span className="text-red-500">wrong</span> answer!
+            Oops, <span className="text-red-500">{t.common.wrongAnswer.split(",")[1]?.trim()}</span>
           </h3>
           <p className="text-red-400 mt-4 mb-8">
-            To complete this lesson you need to answer all {questions.length} questions correctly.
+            {t.common.wrongAnswerDesc} {questions.length} {t.common.questionsCorrectly}
           </p>
           <Button
             onClick={handleRestart}
             className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-xl font-semibold"
           >
             <RotateCcw className="w-4 h-4 mr-2" />
-            Restart
+            {t.common.restart}
           </Button>
         </div>
       </Card>
@@ -92,14 +94,14 @@ export function Quiz({ questions }: QuizProps) {
       <Card className="border-2 border-green-500/50 bg-[#1a0f2e]/60 backdrop-blur-xl p-6 sm:p-8 rounded-2xl">
         <div className="flex flex-col items-center justify-center py-8 text-center">
           <CheckCircle2 className="w-16 h-16 text-green-500 mb-6" />
-          <h3 className="text-2xl font-bold text-white mb-2">Congratulations!</h3>
-          <p className="text-green-400 mt-4 mb-8">You have successfully completed this lesson!</p>
+          <h3 className="text-2xl font-bold text-white mb-2">{t.common.congratulations}</h3>
+          <p className="text-green-400 mt-4 mb-8">{t.common.completedLesson}</p>
           <Button
             onClick={handleRestart}
             className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-xl font-semibold"
           >
             <RotateCcw className="w-4 h-4 mr-2" />
-            Take Again
+            {t.common.takeAgain}
           </Button>
         </div>
       </Card>
@@ -201,14 +203,14 @@ export function Quiz({ questions }: QuizProps) {
           disabled={selectedAnswer === null}
           className="w-full bg-[#3a2a5c] hover:bg-[#4a3a6c] text-white py-3 rounded-xl font-semibold disabled:opacity-50"
         >
-          Check Answer
+          {t.common.checkAnswer}
         </Button>
       ) : (
         <Button
           onClick={handleNext}
           className="w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-semibold"
         >
-          {currentQuestion < questions.length - 1 ? "Next Question" : "Complete Lesson"}
+          {currentQuestion < questions.length - 1 ? t.common.nextQuestion : t.common.completeLesson}
         </Button>
       )}
     </Card>

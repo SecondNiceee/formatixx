@@ -2,6 +2,7 @@
 
 import type React from "react"
 
+import { useLanguage } from "@/lib/i18n/language-context"
 import Image from "next/image"
 import Link from "next/link"
 import { Header } from "@/components/sections/header"
@@ -29,6 +30,8 @@ export function LessonLayout({
   ContentComponent,
   QuizComponent,
 }: LessonLayoutProps) {
+  const { t } = useLanguage()
+
   return (
     <div className="min-h-screen relative overflow-hidden">
       <div className="absolute inset-0 bg-[linear-gradient(315deg,#0a090c_0.38%,#1a092d_99.62%)]" />
@@ -46,7 +49,7 @@ export function LessonLayout({
           <Link href="/learning">
             <Button variant="ghost" className="mb-6 text-white/60 hover:text-white hover:bg-white/5">
               <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Learning
+              {t.common.backToLearning}
             </Button>
           </Link>
 
@@ -68,7 +71,7 @@ export function LessonLayout({
               <div className="w-10 h-10 rounded-full bg-purple-600/20 flex items-center justify-center">
                 <GraduationCap className="w-5 h-5 text-purple-500" />
               </div>
-              <h2 className="text-xl font-bold text-white">Test Your Knowledge</h2>
+              <h2 className="text-xl font-bold text-white">{t.common.testYourKnowledge}</h2>
             </div>
             <QuizComponent />
           </div>
@@ -77,7 +80,7 @@ export function LessonLayout({
             <div className="mt-8">
               <Link href={nextLesson.href}>
                 <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-xl font-semibold flex items-center justify-center gap-2">
-                  Next: {nextLesson.title}
+                  {t.common.nextLesson} {nextLesson.title}
                   <ArrowRight className="w-4 h-4" />
                 </Button>
               </Link>
