@@ -50,58 +50,57 @@ const getLearningTopics = (t: any) => [
       { title: "Candlestick Patterns", href: "/learning/candlestick-patterns" },
     ],
   },
-    {
-      id: 4,
-      title: "Your Trading Toolkit",
-      subtitle: "Essential Indicators",
-      icon: TrendingUp,
-      lessons: [
-        { title: "Volume Indicator", href: "/learning/volume-indicator" },
-        { title: "Moving Average", href: "/learning/moving-average" },
-        { title: "Relative Strength Index", href: "/learning/rsi" },
-      ],
-    },
-    {
-      id: 5,
-      title: "Winning Strategies",
-      subtitle: "Trade Like a Pro",
-      icon: Trophy,
-      lessons: [
-        { title: "Top Down Trading Strategy", href: "/learning/top-down-trading" },
-        { title: "Example", href: "/learning/strategy-example" },
-      ],
-    },
-    {
-      id: 6,
-      title: "Execute & Profit",
-      subtitle: "Making Your Move",
-      icon: Target,
-      lessons: [
-        { title: "Buying and Selling", href: "/learning/buying-and-selling" },
-        { title: "Pick Your Trading Style", href: "/learning/pick-trading-style" },
-      ],
-    },
-    {
-      id: 7,
-      title: "Protect Your Capital",
-      subtitle: "Stay in the Game",
-      icon: Shield,
-      lessons: [{ title: "Risk Management", href: "/learning/risk-management" }],
-    },
-    {
-      id: 8,
-      title: "Level Up",
-      subtitle: "Beyond the Basics",
-      icon: BarChart3,
-      lessons: [
-        { title: "Smart Portfolios", href: "/learning/smart-portfolios" },
-        { title: "Trading Cryptocurrencies", href: "/learning/trading-cryptocurrencies" },
-        { title: "Are You Ready For Real Trading?", href: "/learning/ready-for-real-trading" },
-        { title: "From Sim", href: "/learning/from-sim" },
-      ],
-    },
-  ]
-}
+  {
+    id: 4,
+    title: "Your Trading Toolkit",
+    subtitle: "Essential Indicators",
+    icon: TrendingUp,
+    lessons: [
+      { title: "Volume Indicator", href: "/learning/volume-indicator" },
+      { title: "Moving Average", href: "/learning/moving-average" },
+      { title: "Relative Strength Index", href: "/learning/rsi" },
+    ],
+  },
+  {
+    id: 5,
+    title: "Winning Strategies",
+    subtitle: "Trade Like a Pro",
+    icon: Trophy,
+    lessons: [
+      { title: "Top Down Trading Strategy", href: "/learning/top-down-trading" },
+      { title: "Example", href: "/learning/strategy-example" },
+    ],
+  },
+  {
+    id: 6,
+    title: "Execute & Profit",
+    subtitle: "Making Your Move",
+    icon: Target,
+    lessons: [
+      { title: "Buying and Selling", href: "/learning/buying-and-selling" },
+      { title: "Pick Your Trading Style", href: "/learning/pick-trading-style" },
+    ],
+  },
+  {
+    id: 7,
+    title: "Protect Your Capital",
+    subtitle: "Stay in the Game",
+    icon: Shield,
+    lessons: [{ title: "Risk Management", href: "/learning/risk-management" }],
+  },
+  {
+    id: 8,
+    title: "Level Up",
+    subtitle: "Beyond the Basics",
+    icon: BarChart3,
+    lessons: [
+      { title: "Smart Portfolios", href: "/learning/smart-portfolios" },
+      { title: "Trading Cryptocurrencies", href: "/learning/trading-cryptocurrencies" },
+      { title: "Are You Ready For Real Trading?", href: "/learning/ready-for-real-trading" },
+      { title: "From Sim", href: "/learning/from-sim" },
+    ],
+  },
+]
 
 export default function LearningPage() {
   const { t } = useLanguage()
