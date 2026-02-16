@@ -247,17 +247,16 @@ export const translations = {
       section3: {
         title: "Reading the Market",
         subtitle: "Master the Charts",
-      }
-    },
-
-    // Lesson titles for Reading the Market section
-    readingMarket: {
-      navigating: "Navigating The Charts",
-      bullsBears: "Bulls and Bears",
-      trends: "Understanding Trends",
-      support: "Support And Resistance",
-      patterns: "Chart Patterns",
-      candlestick: "Candlestick Patterns",
+      },
+      // Lesson titles for Reading the Market section
+      readingMarket: {
+        navigating: "Navigating The Charts",
+        bullsBears: "Bulls and Bears",
+        trends: "Understanding Trends",
+        support: "Support And Resistance",
+        patterns: "Chart Patterns",
+        candlestick: "Candlestick Patterns",
+      },
       // Getting Started Lessons
       lessons: {
         whyTradeBinary: {
@@ -731,17 +730,16 @@ export const translations = {
       section3: {
         title: "Leyendo el Mercado",
         subtitle: "Domina los Gráficos",
-      }
-    },
-
-    // Lesson titles for Reading the Market section
-    readingMarket: {
-      navigating: "Navegando por los Gráficos",
-      bullsBears: "Alcistas y Bajistas",
-      trends: "Entendiendo las Tendencias",
-      support: "Soporte y Resistencia",
-      patterns: "Patrones de Gráficos",
-      candlestick: "Patrones de Velas",
+      },
+      // Lesson titles for Reading the Market section
+      readingMarket: {
+        navigating: "Navegando por los Gráficos",
+        bullsBears: "Alcistas y Bajistas",
+        trends: "Entendiendo las Tendencias",
+        support: "Soporte y Resistencia",
+        patterns: "Patrones de Gráficos",
+        candlestick: "Patrones de Velas",
+      },
       // Getting Started Lessons
       lessons: {
         whyTradeBinary: {
@@ -1214,17 +1212,16 @@ export const translations = {
       section3: {
         title: "Lendo o Mercado",
         subtitle: "Domine os Gráficos",
-      }
-    },
-
-    // Lesson titles for Reading the Market section
-    readingMarket: {
-      navigating: "Navegando pelos Gráficos",
-      bullsBears: "Touros e Ursos",
-      trends: "Entendendo as Tendências",
-      support: "Suporte e Resistência",
-      patterns: "Padrões de Gráficos",
-      candlestick: "Padrões de Velas",
+      },
+      // Lesson titles for Reading the Market section
+      readingMarket: {
+        navigating: "Navegando pelos Gráficos",
+        bullsBears: "Touros e Ursos",
+        trends: "Entendendo as Tendências",
+        support: "Suporte e Resistência",
+        patterns: "Padrões de Gráficos",
+        candlestick: "Padrões de Velas",
+      },
       // Getting Started Lessons
       lessons: {
         whyTradeBinary: {
@@ -1693,17 +1690,16 @@ export const translations = {
       section3: {
         title: "قراءة السوق",
         subtitle: "احترف الرسوم البيانية",
-      }
-    },
-
-    // Lesson titles for Reading the Market section
-    readingMarket: {
-      navigating: "التنقل في الرسوم البيانية",
-      bullsBears: "الثيران والدببة",
-      trends: "فهم الاتجاهات",
-      support: "الدعم والمقاومة",
-      patterns: "أنماط الرسوم البيانية",
-      candlestick: "أنماط الشموع",
+      },
+      // Lesson titles for Reading the Market section
+      readingMarket: {
+        navigating: "التنقل في الرسوم البيانية",
+        bullsBears: "الثيران والدببة",
+        trends: "فهم الاتجاهات",
+        support: "الدعم والمقاومة",
+        patterns: "أنماط الرسوم البيانية",
+        candlestick: "أنماط الشموع",
+      },
       // Getting Started Lessons
       lessons: {
         whyTradeBinary: {
@@ -1725,7 +1721,7 @@ export const translations = {
             ],
             crisisContent:
               "إذا كانت توقعاتك صحيحة، فيمكن أن تظل الخيارات الثنائية مربحة حتى في أسوأ الأوقات لأن العملات يتم تداولها دائماً في أزواج. عندما تنخفض قيمة عملة واحدة، ترتفع قيمة العملة الأخرى.",
-            crisisProfit: "رائع جداً، أليس كذلك؟ يمكنك الربح، بغض النظر عما إذا كان السوق يتجه نحو الأعلى أو الأسفل، لكن إذا كان توقعك خاطئاً، يمكنك أن تخسر بنفس القدر.",
+            crisisProfit: "رائع جداً، أليس كذلك؟ يمكنك الربح، ب��ض النظر عما إذا كان السوق يتجه نحو الأعلى أو الأسفل، لكن إذا كان توقعك خاطئاً، يمكنك أن تخسر بنفس القدر.",
             hammock: "تداول وأنت مسترخٍ في أرجوحة",
             hammockContent:
               "يمكنك الوصول إلى عالم التداول من أي مكان وأنت مسترخٍ في أرجوحة! كل ما تحتاجه هو جها�� كمبيوتر و/أو هاتف ذكي واتصال بالإنترنت. يستخدم العديد من متداولي الخيارات الثنائية الناجحين تطبيقات التداول المتقدمة على هواتفهم الذكية iPhone أو Android والأجهزة اللوحية. لذلك اختر نمط الحياة الذي يناسب أهدافك التجارية.",
