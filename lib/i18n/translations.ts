@@ -30,6 +30,12 @@ export const translations = {
       congratulations: "Congratulations!",
       completedLesson: "You have successfully completed this lesson!",
       takeAgain: "Take Again",
+      question: "Question",
+      copyTrading: "Copy Trading",
+      whyTradeBinary: "Why Trade Binary Options?",
+      howMuchBinary: "How Much Can You Make Trading?",
+      whenToTrade: "When to Trade",
+      socialTrading: "Social Trading",
     },
 
     // Header
@@ -483,6 +489,12 @@ export const translations = {
       congratulations: "¡Felicitaciones!",
       completedLesson: "¡Has completado exitosamente esta lección!",
       takeAgain: "Intentar de Nuevo",
+      question: "Pregunta",
+      copyTrading: "Copy Trading",
+      whyTradeBinary: "¿Por Qué Operar con Opciones Binarias?",
+      howMuchBinary: "¿Cuánto Puedes Ganar Operando?",
+      whenToTrade: "Cuándo Operar",
+      socialTrading: "Trading Social",
     },
 
     // Header
@@ -936,6 +948,12 @@ export const translations = {
       congratulations: "Parabéns!",
       completedLesson: "Você completou com sucesso esta lição!",
       takeAgain: "Tentar Novamente",
+      question: "Pergunta",
+      copyTrading: "Copy Trading",
+      whyTradeBinary: "Por Que Negociar Opções Binárias?",
+      howMuchBinary: "Quanto Você Pode Ganhar Negociando?",
+      whenToTrade: "Quando Negociar",
+      socialTrading: "Trading Social",
     },
 
     // Header
@@ -1389,6 +1407,12 @@ export const translations = {
       congratulations: "تهانينا!",
       completedLesson: "لقد أكملت هذا الدرس بنجاح!",
       takeAgain: "حاول مرة أخرى",
+      question: "السؤال",
+      copyTrading: "Copy Trading",
+      whyTradeBinary: "لماذا تتداول الخيارات الثنائية؟",
+      howMuchBinary: "كم يمكنك أن تكسب من التداول؟",
+      whenToTrade: "متى تتداول",
+      socialTrading: "التداول الاجتماعي",
     },
 
     // Header
@@ -1683,7 +1707,7 @@ export const translations = {
             intro: "متى تتداول",
             subtitle: "التوقيت هو كل شيء في التداول",
             content1:
-              "التوقيت هو كل شيء في التداول، ومعرفة أكثر الأوقات ربحية للدخول إلى السوق يمكن أن تكون عاملاً رئيسياً في نتائجك. في هذا الدرس، سنوجهك خلال أفضل الأوقات للتداول كل فئة أصول.",
+              "التوقيت هو كل شيء في التداول، ومعرفة أكثر الأوقات ربحية للدخول إلى السوق يمكن أن تكون عاملاً رئيسياً في نتائجك. في هذا الدرس، سنوجهك خلال أف��ل الأوقات للتداول كل فئة أصول.",
             windowOfOpportunity: "نافذة الفرصة",
             windowContent:
               "هناك فترة زمنية محددة تعتبر أفضل وقت للتداول في جميع الأصول. باختصار، هو عندما يكون هناك أكثر نشاط في الأسواق، مع مشاركة المتداولين من حول العالم.",

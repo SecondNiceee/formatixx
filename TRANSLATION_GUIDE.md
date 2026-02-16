@@ -354,41 +354,130 @@ export default function LessonPage() {
 
 ---
 
-## Step 7: Add Navigation Links to Learning Hub
+## Step 7: Add Common Lesson Title Translations
 
-Update `app/learning/page.tsx` to add the new lesson to the section:
+Add translated lesson titles to `t.common` for reuse on the learning hub page:
 
 ```typescript
-const learningTopics = [
+// In lib/i18n/translations.ts, add to each language's common section:
+common: {
+  // ... existing common translations ...
+  
+  // Lesson titles for Getting Started section
+  whyTradeBinary: "Why Trade Binary Options?",
+  howMuchBinary: "How Much Can You Make Trading?",
+  whenToTrade: "When to Trade",
+  socialTrading: "Social Trading",
+  copyTrading: "Copy Trading",
+  
+  // Lesson titles for other sections
+  basics: "Basics",
+  language: "The Language of Binary Options",
+  fundamentals: "Following the Fundamentals",
+  // ... add more as needed
+}
+```
+
+This allows you to translate lesson titles once and reuse them everywhere.
+
+## Step 8: Add Navigation Links to Learning Hub
+
+Update `app/learning/page.tsx` to use translated lesson titles:
+
+```typescript
+"use client"
+
+import { useLanguage } from "@/lib/i18n/language-context"
+
+const getLearningTopics = (t: any) => [
   {
     id: 1,
     title: t.learning.section1.title,
     subtitle: t.learning.section1.subtitle,
     lessons: [
-      { title: "Existing Lesson", href: "/learning/existing" },
-      { title: "New Lesson Title", href: "/learning/new-lesson-route" }, // Add here
+      { title: t.common.whyTradeBinary, href: "/learning/why-trade-binary" },
+      { title: t.common.howMuchBinary, href: "/learning/how-much-binary" },
+      { title: t.common.whenToTrade, href: "/learning/when-to-trade-binary" },
+      { title: `${t.common.socialTrading} (${t.common.copyTrading})`, href: "/learning/social-trading-binary" },
     ],
   },
   // ... other sections
 ]
+
+export default function LearningPage() {
+  const { t } = useLanguage()
+  const topics = getLearningTopics(t)
+  // ... render topics with translated titles
+}
 ```
+
+**Important**: Always use the `getLearningTopics(t)` function to ensure all titles are translated dynamically based on the current language selection.
 
 ---
 
-## Translation Checklist
+## Translation Checklist - Complete
 
-For each new lesson section, ensure you've:
+For each new lesson section, ensure you've translated:
 
-- [ ] Added `sections` object with all content text in all 4 languages
-- [ ] Added `quiz` object with all questions, options, and explanations in all 4 languages
-- [ ] Updated `Quiz` component to use `useLanguage()` hook
-- [ ] Updated `LessonLayout` component to use `useLanguage()` hook
-- [ ] Created `[lesson-name]-content.tsx` with `useLanguage()` hook
-- [ ] Created `[lesson-name]-quiz.tsx` with `useLanguage()` hook
-- [ ] Created lesson page file with proper imports
-- [ ] Added `common` UI text keys to all 4 language sections in translations file
-- [ ] Updated learning hub page with new lesson links
-- [ ] Tested language switching works properly
+### 1. Lesson Structure & Metadata
+- [ ] **Lesson title** (add to `t.common.lessonName`)
+- [ ] **Lesson subtitle** (if applicable)
+- [ ] **Section category** (add to `t.common.categoryName`)
+- [ ] **Metadata description** (in component files)
+
+### 2. Content Component (`[lesson-name]-content.tsx`)
+- [ ] **Main heading/intro** (`s.intro`)
+- [ ] **All body content** (`s.content1`, `s.content2`, etc.)
+- [ ] **Section headings** (`s.sectionTitle`, `s.subheading`, etc.)
+- [ ] **Section descriptions** (`s.sectionContent`, etc.)
+- [ ] **Call-out boxes** (`s.callout`, `s.highlight`, etc.)
+- [ ] **Lists items** (`s.itemsList`, `s.benefit1`, `s.benefit2`, etc.)
+- [ ] **Conclusion text** (any closing paragraphs)
+
+### 3. Quiz Component (`[lesson-name]-quiz.tsx`)
+- [ ] **Question text** (`q.q1`, `q.q2`, etc.)
+- [ ] **All answer options** (`q.q1o1`, `q.q1o2`, `q.q1o3`, etc.)
+- [ ] **Explanations** (`q.q1a`, `q.q2a`, etc.)
+
+### 4. Common UI Elements
+- [ ] **"Check Answer"** button
+- [ ] **"Next Question"** button
+- [ ] **"Complete Lesson"** button
+- [ ] **"Question 1/2"** counter text
+- [ ] **Error messages** ("Oops, wrong answer!")
+- [ ] **Success messages** ("Congratulations!")
+- [ ] **"Back to Learning"** link
+- [ ] **"Test Your Knowledge"** header
+- [ ] **"Next: [Lesson Name]"** navigation button
+
+### 5. Learning Hub Page (`app/learning/page.tsx`)
+- [ ] **Section titles** (`t.learning.section1.title`)
+- [ ] **Section subtitles** (`t.learning.section1.subtitle`)
+- [ ] **Lesson titles** in the lesson list (use `t.common.lessonName`)
+- [ ] **Lesson with text in parentheses** (e.g., "Social Trading (Copy Trading)")
+
+### 6. Translations Added to All 4 Languages
+- [ ] **English** (en) - all keys added
+- [ ] **Spanish** (es) - all keys added and translated
+- [ ] **Portuguese** (pt) - all keys added and translated
+- [ ] **Arabic** (ar) - all keys added and translated
+
+### 7. Components Updated
+- [ ] **Quiz component** - uses `useLanguage()` hook
+- [ ] **LessonLayout component** - uses `useLanguage()` hook
+- [ ] **Content component** - uses `useLanguage()` hook
+- [ ] **Learning hub page** - uses `getLearningTopics(t)` function
+
+### 8. Testing
+- [ ] Language switcher changes all text in content
+- [ ] Language switcher changes all quiz text
+- [ ] Language switcher changes all buttons
+- [ ] Language switcher changes lesson titles on hub page
+- [ ] Language switcher changes "(Copy Trading)" text
+- [ ] Error messages display in correct language
+- [ ] Success messages display in correct language
+- [ ] Next button shows correct next lesson name
+- [ ] All sections translate properly when language changes
 
 ---
 

@@ -16,10 +16,10 @@ const getLearningTopics = (t: any) => [
     subtitle: t.learning.section1.subtitle || "Your Trading Journey",
     icon: Rocket,
     lessons: [
-      { title: "Why Trade Binary Options?", href: "/learning/why-trade-binary" },
-      { title: "How Much Can You Make Trading?", href: "/learning/how-much-binary" },
-      { title: "When to Trade", href: "/learning/when-to-trade-binary" },
-      { title: "Social Trading (Copy Trading)", href: "/learning/social-trading-binary" },
+      { title: t.common.whyTradeBinary, href: "/learning/why-trade-binary" },
+      { title: t.common.howMuchBinary, href: "/learning/how-much-binary" },
+      { title: t.common.whenToTrade, href: "/learning/when-to-trade-binary" },
+      { title: `${t.common.socialTrading} (${t.common.copyTrading})`, href: "/learning/social-trading-binary" },
     ],
   },
   {
