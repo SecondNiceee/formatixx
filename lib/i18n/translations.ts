@@ -50,6 +50,16 @@ export const translations = {
       support: "Support And Resistance",
       patterns: "Chart Patterns",
       candlestick: "Candlestick Patterns",
+      // Your Trading Toolkit Section Lessons
+      volume: "Volume Indicator",
+      movingAverage: "Moving Average",
+      rsi: "Relative Strength Index",
+      // Winning Strategies Section Lessons
+      topDown: "Top Down Trading Strategy",
+      strategyExample: "Example",
+      // Execute & Profit Section Lessons
+      buyingSelling: "Buying and Selling",
+      tradingStyle: "Pick Your Trading Style",
     },
 
     // Header
@@ -256,6 +266,34 @@ export const translations = {
         support: "Support And Resistance",
         patterns: "Chart Patterns",
         candlestick: "Candlestick Patterns",
+      },
+      section4: {
+        title: "Your Trading Toolkit",
+        subtitle: "Essential Indicators",
+      },
+      section5: {
+        title: "Winning Strategies",
+        subtitle: "Trade Like a Pro",
+      },
+      section6: {
+        title: "Execute & Profit",
+        subtitle: "Making Your Move",
+      },
+      // Lesson titles for Your Trading Toolkit section
+      toolkit: {
+        volume: "Volume Indicator",
+        movingAverage: "Moving Average",
+        rsi: "Relative Strength Index",
+      },
+      // Lesson titles for Winning Strategies section
+      strategies: {
+        topDown: "Top Down Trading Strategy",
+        example: "Example",
+      },
+      // Lesson titles for Execute & Profit section
+      execute: {
+        buyingSelling: "Buying and Selling",
+        tradingStyle: "Pick Your Trading Style",
       },
       // Getting Started Lessons
       lessons: {
@@ -532,6 +570,16 @@ export const translations = {
       support: "Soporte y Resistencia",
       patterns: "Patrones de Gráficos",
       candlestick: "Patrones de Velas",
+      // Your Trading Toolkit Section Lessons
+      volume: "Indicador de Volumen",
+      movingAverage: "Promedio Móvil",
+      rsi: "Índice de Fuerza Relativa",
+      // Winning Strategies Section Lessons
+      topDown: "Estrategia de Trading de Arriba hacia Abajo",
+      strategyExample: "Ejemplo",
+      // Execute & Profit Section Lessons
+      buyingSelling: "Compra y Venta",
+      tradingStyle: "Elige Tu Estilo de Trading",
     },
 
     // Header
@@ -739,6 +787,34 @@ export const translations = {
         support: "Soporte y Resistencia",
         patterns: "Patrones de Gráficos",
         candlestick: "Patrones de Velas",
+      },
+      section4: {
+        title: "Tu Kit de Herramientas de Trading",
+        subtitle: "Indicadores Esenciales",
+      },
+      section5: {
+        title: "Estrategias Ganadoras",
+        subtitle: "Opera Como un Profesional",
+      },
+      section6: {
+        title: "Ejecuta y Gana",
+        subtitle: "Haz tu Movimiento",
+      },
+      // Lesson titles for Your Trading Toolkit section
+      toolkit: {
+        volume: "Indicador de Volumen",
+        movingAverage: "Promedio Móvil",
+        rsi: "Índice de Fuerza Relativa",
+      },
+      // Lesson titles for Winning Strategies section
+      strategies: {
+        topDown: "Estrategia de Trading de Arriba hacia Abajo",
+        example: "Ejemplo",
+      },
+      // Lesson titles for Execute & Profit section
+      execute: {
+        buyingSelling: "Compra y Venta",
+        tradingStyle: "Elige Tu Estilo de Trading",
       },
       // Getting Started Lessons
       lessons: {
@@ -1014,6 +1090,16 @@ export const translations = {
       support: "Suporte e Resistência",
       patterns: "Padrões de Gráficos",
       candlestick: "Padrões de Velas",
+      // Your Trading Toolkit Section Lessons
+      volume: "Indicador de Volume",
+      movingAverage: "Média Móvel",
+      rsi: "Índice de Força Relativa",
+      // Winning Strategies Section Lessons
+      topDown: "Estratégia de Trading de Cima para Baixo",
+      strategyExample: "Exemplo",
+      // Execute & Profit Section Lessons
+      buyingSelling: "Compra e Venda",
+      tradingStyle: "Escolha Seu Estilo de Trading",
     },
 
     // Header
@@ -1221,6 +1307,34 @@ export const translations = {
         support: "Suporte e Resistência",
         patterns: "Padrões de Gráficos",
         candlestick: "Padrões de Velas",
+      },
+      section4: {
+        title: "Seu Kit de Ferramentas de Trading",
+        subtitle: "Indicadores Essenciais",
+      },
+      section5: {
+        title: "Estratégias Vencedoras",
+        subtitle: "Negocie Como um Profissional",
+      },
+      section6: {
+        title: "Execute e Lucre",
+        subtitle: "Faça Seu Movimento",
+      },
+      // Lesson titles for Your Trading Toolkit section
+      toolkit: {
+        volume: "Indicador de Volume",
+        movingAverage: "Média Móvel",
+        rsi: "Índice de Força Relativa",
+      },
+      // Lesson titles for Winning Strategies section
+      strategies: {
+        topDown: "Estratégia de Trading de Cima para Baixo",
+        example: "Exemplo",
+      },
+      // Lesson titles for Execute & Profit section
+      execute: {
+        buyingSelling: "Compra e Venda",
+        tradingStyle: "Escolha Seu Estilo de Trading",
       },
       // Getting Started Lessons
       lessons: {
@@ -1496,6 +1610,16 @@ export const translations = {
       support: "الدعم والمقاومة",
       patterns: "أنماط الرسوم البيانية",
       candlestick: "أنماط الشموع",
+      // Your Trading Toolkit Section Lessons
+      volume: "مؤشر الحجم",
+      movingAverage: "المتوسط المتحرك",
+      rsi: "مؤشر القوة النسبية",
+      // Winning Strategies Section Lessons
+      topDown: "استراتيجية التداول من الأعلى إلى الأسفل",
+      strategyExample: "مثال",
+      // Execute & Profit Section Lessons
+      buyingSelling: "الشراء والبيع",
+      tradingStyle: "اختر أسلوب التداول الخاص بك",
     },
 
     // Header
@@ -1550,7 +1674,7 @@ export const translations = {
       trader1Quote: "بعد 10 سنوات في السوق، أخيراً وجدت أداة تعمل حقاً. تحسنت نتائجي بنسبة 300%!",
       trader2Name: "إيزابيلا ألفيس",
       trader2Role: "متداول سوينج",
-      trader2Quote: "كأم لطفلين، أحتاج تحليلاً سريعاً وفعالاً. FoMatrix يتيح لي التداول في فترات استراحتي!",
+      trader2Quote: "كأم لطفلين، أحتاج تحليلاً سريعاً وفعالاً. FoMatrix يتيح لي التداول في فترات ا��تراحتي!",
       trader3Name: "كارلوس إدواردو",
       trader3Role: "متداول سكالبينج",
       trader3Quote: "طالب اقتصاد يتداول لدفع رسوم الجامعة. مع FoMatrix، أستطيع أن أكون ثابتاً في العمليات!",
@@ -1699,6 +1823,34 @@ export const translations = {
         support: "الدعم والمقاومة",
         patterns: "أنماط الرسوم البيانية",
         candlestick: "أنماط الشموع",
+      },
+      section4: {
+        title: "مجموعة أدوات التداول الخاصة بك",
+        subtitle: "المؤشرات الأساسية",
+      },
+      section5: {
+        title: "استراتيجيات الفوز",
+        subtitle: "تداول مثل المحترف",
+      },
+      section6: {
+        title: "نفذ واربح",
+        subtitle: "اصنع حركتك",
+      },
+      // Lesson titles for Your Trading Toolkit section
+      toolkit: {
+        volume: "مؤشر الحجم",
+        movingAverage: "المتوسط المتحرك",
+        rsi: "مؤشر القوة النسبية",
+      },
+      // Lesson titles for Winning Strategies section
+      strategies: {
+        topDown: "استراتيجية التداول من الأعلى إلى الأسفل",
+        example: "مثال",
+      },
+      // Lesson titles for Execute & Profit section
+      execute: {
+        buyingSelling: "الشراء والبيع",
+        tradingStyle: "اختر أسلوب التداول الخاص بك",
       },
       // Getting Started Lessons
       lessons: {
