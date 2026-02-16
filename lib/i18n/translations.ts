@@ -60,6 +60,13 @@ export const translations = {
       // Execute & Profit Section Lessons
       buyingSelling: "Buying and Selling",
       tradingStyle: "Pick Your Trading Style",
+      // Protect Your Capital Section Lessons
+      riskManagement: "Risk Management",
+      // Level Up Section Lessons
+      smartPortfolios: "Smart Portfolios",
+      tradingCrypto: "Trading Cryptocurrencies",
+      realTrading: "Are You Ready For Real Trading?",
+      simToReal: "From Simulation to Real Trading",
     },
 
     // Header
@@ -278,6 +285,14 @@ export const translations = {
       section6: {
         title: "Execute & Profit",
         subtitle: "Making Your Move",
+      },
+      section7: {
+        title: "Protect Your Capital",
+        subtitle: "Stay in the Game",
+      },
+      section8: {
+        title: "Level Up",
+        subtitle: "Beyond the Basics",
       },
       // Lesson titles for Your Trading Toolkit section
       toolkit: {
@@ -578,8 +593,15 @@ export const translations = {
       topDown: "Estrategia de Trading de Arriba hacia Abajo",
       strategyExample: "Ejemplo",
       // Execute & Profit Section Lessons
-      buyingSelling: "Compra y Venta",
+      buyingSelling: "Comprando y Vendiendo",
       tradingStyle: "Elige Tu Estilo de Trading",
+      // Protect Your Capital Section Lessons
+      riskManagement: "Gestión del Riesgo",
+      // Level Up Section Lessons
+      smartPortfolios: "Portafolios Inteligentes",
+      tradingCrypto: "Trading de Criptomonedas",
+      realTrading: "¿Estás Listo Para el Trading Real?",
+      simToReal: "De la Simulación al Trading Real",
     },
 
     // Header
@@ -799,6 +821,14 @@ export const translations = {
       section6: {
         title: "Ejecuta y Gana",
         subtitle: "Haz tu Movimiento",
+      },
+      section7: {
+        title: "Protege Tu Capital",
+        subtitle: "Sigue en el Juego",
+      },
+      section8: {
+        title: "Sube de Nivel",
+        subtitle: "Más Allá de lo Básico",
       },
       // Lesson titles for Your Trading Toolkit section
       toolkit: {
@@ -1100,6 +1130,13 @@ export const translations = {
       // Execute & Profit Section Lessons
       buyingSelling: "Compra e Venda",
       tradingStyle: "Escolha Seu Estilo de Trading",
+      // Protect Your Capital Section Lessons
+      riskManagement: "Gestão de Risco",
+      // Level Up Section Lessons
+      smartPortfolios: "Portfólios Inteligentes",
+      tradingCrypto: "Negociação de Criptomoedas",
+      realTrading: "Você Está Pronto Para Negociação Real?",
+      simToReal: "Da Simulação à Negociação Real",
     },
 
     // Header
@@ -1319,6 +1356,30 @@ export const translations = {
       section6: {
         title: "Execute e Lucre",
         subtitle: "Faça Seu Movimento",
+      },
+      section7: {
+        title: "Proteja Seu Capital",
+        subtitle: "Continue no Jogo",
+      },
+      section8: {
+        title: "Suba de Nível",
+        subtitle: "Além o Básico",
+      },
+      // Lesson titles for Your Trading Toolkit section
+      toolkit: {
+        volume: "Indicador de Volume",
+        movingAverage: "Média Móvel",
+        rsi: "Índice de Força Relativa",
+      },
+      // Lesson titles for Winning Strategies section
+      strategies: {
+        topDown: "Estratégia de Trading de Cima para Baixo",
+        example: "Exemplo",
+      },
+      // Lesson titles for Execute & Profit section
+      execute: {
+        buyingSelling: "Comprando e Vendendo",
+        tradingStyle: "Escolha Seu Estilo de Trading",
       },
       // Lesson titles for Your Trading Toolkit section
       toolkit: {
@@ -1620,6 +1681,13 @@ export const translations = {
       // Execute & Profit Section Lessons
       buyingSelling: "الشراء والبيع",
       tradingStyle: "اختر أسلوب التداول الخاص بك",
+      // Protect Your Capital Section Lessons
+      riskManagement: "إدارة المخاطر",
+      // Level Up Section Lessons
+      smartPortfolios: "المحافظ الذكية",
+      tradingCrypto: "تداول العملات المشفرة",
+      realTrading: "هل أنت مستعد للتداول الحقيقي؟",
+      simToReal: "من المحاكاة إلى التداول الحقيقي",
     },
 
     // Header
@@ -1834,7 +1902,31 @@ export const translations = {
       },
       section6: {
         title: "نفذ واربح",
-        subtitle: "اصنع حركتك",
+        subtitle: "قم بحركتك",
+      },
+      section7: {
+        title: "حماية رأس مالك",
+        subtitle: "ابقَ في اللعبة",
+      },
+      section8: {
+        title: "ارتقِ بمستواك",
+        subtitle: "ما وراء الأساسيات",
+      },
+      // Lesson titles for Your Trading Toolkit section
+      toolkit: {
+        volume: "مؤشر الحجم",
+        movingAverage: "المتوسط المتحرك",
+        rsi: "مؤشر القوة النسبية",
+      },
+      // Lesson titles for Winning Strategies section
+      strategies: {
+        topDown: "استراتيجية التداول من الأعلى إلى الأسفل",
+        example: "مثال",
+      },
+      // Lesson titles for Execute & Profit section
+      execute: {
+        buyingSelling: "الشراء والبيع",
+        tradingStyle: "اختر أسلوب التداول الخاص بك",
       },
       // Lesson titles for Your Trading Toolkit section
       toolkit: {
@@ -1874,7 +1966,7 @@ export const translations = {
             crisisContent:
               "إذا كانت توقعاتك صحيحة، فيمكن أن تظل الخيارات الثنائية مربحة حتى في أسوأ الأوقات لأن العملات يتم تداولها دائماً في أزواج. عندما تنخفض قيمة عملة واحدة، ترتفع قيمة العملة الأخرى.",
             crisisProfit: "رائع جداً، أليس كذلك؟ يمكنك الربح، ب��ض النظر عما إذا كان السوق يتجه نحو الأعلى أو الأسفل، لكن إذا كان توقعك خاطئاً، يمكنك أن تخسر بنفس القدر.",
-            hammock: "تداول وأنت مسترخٍ في أرجوحة",
+            hammock: "تداول و��نت مسترخٍ في أرجوحة",
             hammockContent:
               "يمكنك الوصول إلى عالم التداول من أي مكان وأنت مسترخٍ في أرجوحة! كل ما تحتاجه هو جها�� كمبيوتر و/أو هاتف ذكي واتصال بالإنترنت. يستخدم العديد من متداولي الخيارات الثنائية الناجحين تطبيقات التداول المتقدمة على هواتفهم الذكية iPhone أو Android والأجهزة اللوحية. لذلك اختر نمط الحياة الذي يناسب أهدافك التجارية.",
             startWith: "ابدأ بـ 250 دولار",
@@ -2066,7 +2158,7 @@ export const translations = {
       requirements: "الوسيط",
       step1: "سجل مع أحد وسطائنا الشركاء باستخدام الرابط المقدم.",
       step2: "قم بإيداع حد أدنى قدره 50 دولار لتفعيل حساب التداول الخاص بك.",
-      step3: "بعد التسجيل، يرجى كتابة معرفك أدناه",
+      step3: "بعد التسجي��، يرجى كتابة معرفك أدناه",
       registration: "التسجيل",
       alreadyHaveAccount: "لديك حساب بالفعل؟ أدخل معرفك أدناه",
       enterAccountId: "أدخل معرف حسابك",
