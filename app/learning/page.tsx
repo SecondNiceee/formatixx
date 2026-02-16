@@ -28,12 +28,12 @@ const getLearningTopics = (t: any) => [
     subtitle: t.learning.section2.subtitle || "What Moves Markets",
     icon: DollarSign,
     lessons: [
-      { title: "Basics", href: "/learning/basics-binary" },
-      { title: "The Language of Binary Options", href: "/learning/language-binary" },
-      { title: "Following the Fundamentals", href: "/learning/fundamentals-binary" },
-      { title: "Gold Prices and Binary Options", href: "/learning/gold-binary" },
-      { title: "Investing in Stocks vs Binary Options", href: "/learning/stocks-vs-binary" },
-      { title: "Crude Oil Prices and Binary Options", href: "/learning/crude-oil-binary" },
+      { title: t.common.basics, href: "/learning/basics-binary" },
+      { title: t.common.language, href: "/learning/language-binary" },
+      { title: t.common.fundamentals, href: "/learning/fundamentals-binary" },
+      { title: t.common.gold, href: "/learning/gold-binary" },
+      { title: t.common.stocks, href: "/learning/stocks-vs-binary" },
+      { title: t.common.crudeOil, href: "/learning/crude-oil-binary" },
     ],
   },
   {

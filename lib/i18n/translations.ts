@@ -37,6 +37,12 @@ export const translations = {
       whenToTrade: "When to Trade",
       socialTrading: "Social Trading",
       basics: "Basics",
+      // The Money Makers Section Lessons
+      language: "The Language of Binary Options",
+      fundamentals: "Following the Fundamentals",
+      gold: "Gold Prices and Binary Options",
+      stocks: "Investing in Stocks vs Binary Options",
+      crudeOil: "Crude Oil Prices and Binary Options",
     },
 
     // Header
@@ -497,6 +503,12 @@ export const translations = {
       whenToTrade: "Cuándo Operar",
       socialTrading: "Trading Social",
       basics: "Conceptos Básicos",
+      // The Money Makers Section Lessons
+      language: "El Lenguaje de las Opciones Binarias",
+      fundamentals: "Siguiendo los Fundamentos",
+      gold: "Precios del Oro y Opciones Binarias",
+      stocks: "Invertir en Acciones vs Opciones Binarias",
+      crudeOil: "Precios del Petróleo Crudo y Opciones Binarias",
     },
 
     // Header
@@ -957,6 +969,12 @@ export const translations = {
       whenToTrade: "Quando Negociar",
       socialTrading: "Trading Social",
       basics: "Conceitos Básicos",
+      // The Money Makers Section Lessons
+      language: "A Linguagem das Opções Binárias",
+      fundamentals: "Seguindo os Fundamentos",
+      gold: "Preços do Ouro e Opções Binárias",
+      stocks: "Investir em Ações vs Opções Binárias",
+      crudeOil: "Preços do Petróleo Bruto e Opções Binárias",
     },
 
     // Header
@@ -1417,6 +1435,12 @@ export const translations = {
       whenToTrade: "متى تتداول",
       socialTrading: "التداول الاجتماعي",
       basics: "أساسيات",
+      // The Money Makers Section Lessons
+      language: "لغة الخيارات الثنائية",
+      fundamentals: "متابعة الأساسيات",
+      gold: "أسعار الذهب والخيارات الثنائية",
+      stocks: "الاستثمار في الأسهم مقابل الخيارات الثنائية",
+      crudeOil: "أسعار النفط الخام والخيارات الثنائية",
     },
 
     // Header
