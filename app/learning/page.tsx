@@ -73,8 +73,8 @@ const getLearningTopics = (t: any) => [
   },
   {
     id: 6,
-    title: t.learning.section6.title,
-    subtitle: t.learning.section6.subtitle,
+    title: t.learning.section6.title || "Execute & Profit",
+    subtitle: t.learning.section6.subtitle || "Making Your Move",
     icon: Target,
     lessons: [
       { title: t.learning.execute.buyingSelling, href: "/learning/buying-and-selling" },
