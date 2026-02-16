@@ -310,6 +310,46 @@ export const translations = {
         buyingSelling: "Buying and Selling",
         tradingStyle: "Pick Your Trading Style",
       },
+      // The Money Makers Lessons (Section 2)
+      moneyMakers: {
+        basics: {
+          title: "Basics",
+          sections: {
+            whatMovesMarkets: "WHAT MOVES THE MARKETS?",
+            intro1: "Understanding what drives currency prices is essential for successful binary options trading. Markets don't move randomly - they respond to fundamental forces that shape the global economy.",
+            intro2: "At the heart of binary options trading is the relationship between different countries' economies. Currency values fluctuate based on economic indicators, central bank policies, and market sentiment.",
+            keyMarketMovers: "KEY MARKET MOVERS",
+            economicData: "1. Economic Data",
+            economicDataDesc: "Reports like GDP, employment figures, and inflation rates directly impact currency values. Strong economic data typically strengthens a currency, while weak data can cause depreciation.",
+            centralBankPolicies: "2. Central Bank Policies",
+            centralBankDesc: "Interest rate decisions and monetary policy statements from central banks like the Federal Reserve, ECB, and Bank of England are among the most powerful market movers.",
+            geopoliticalEvents: "3. Geopolitical Events",
+            geopoliticalDesc: "Political instability, elections, trade wars, and international relations can create significant volatility in currency markets as traders assess risk.",
+            marketSentiment: "4. Market Sentiment",
+            sentimentDesc: "The overall mood of traders - whether risk-on (optimistic) or risk-off (cautious) - influences which currencies strengthen or weaken during different market conditions.",
+            supplyDemand: "SUPPLY AND DEMAND",
+            supplyContent: "Like any market, binary options operate on the principle of supply and demand. When demand for a currency increases (more buyers than sellers), its value rises. When supply exceeds demand (more sellers than buyers), its value falls.",
+            remember: "Remember: Every binary options transaction involves buying one currency and selling another simultaneously. This is why currencies are always quoted in pairs, like EUR/USD or GBP/JPY.",
+          },
+          quiz: {
+            q1: "What is the primary driver of currency values in binary options trading?",
+            q1o1: "Random market movements",
+            q1o2: "Economic indicators and central bank policies",
+            q1o3: "Social media trends",
+            q1a: "Currency values are driven by fundamental economic factors including economic indicators, central bank policies, and geopolitical events.",
+            q2: "Which factor directly impacts currency values the most?",
+            q2o1: "Company earnings reports",
+            q2o2: "Economic data like GDP and inflation",
+            q2o3: "Celebrity endorsements",
+            q2a: "Economic data including GDP, employment figures, and inflation rates directly impact currency values.",
+            q3: "Why are currencies always quoted in pairs?",
+            q3o1: "Trading tradition",
+            q3o2: "Because you buy one currency and sell another simultaneously",
+            q3o3: "Random convention",
+            q3a: "Currencies are quoted in pairs because each binary options transaction involves buying one currency and selling another at the same time.",
+          },
+        },
+      },
       // Getting Started Lessons
       lessons: {
         whyTradeBinary: {
@@ -829,6 +869,46 @@ export const translations = {
       section8: {
         title: "Sube de Nivel",
         subtitle: "Más Allá de lo Básico",
+      },
+      // The Money Makers Lessons (Section 2)
+      moneyMakers: {
+        basics: {
+          title: "Conceptos Básicos",
+          sections: {
+            whatMovesMarkets: "¿QUÉ MUEVE LOS MERCADOS?",
+            intro1: "Entender qué impulsa los precios de las divisas es esencial para el trading exitoso de opciones binarias. Los mercados no se mueven al azar, responden a fuerzas fundamentales que moldean la economía global.",
+            intro2: "En el corazón del trading de opciones binarias está la relación entre las economías de diferentes países. Los valores de las divisas fluctúan según indicadores económicos, políticas del banco central y sentimiento del mercado.",
+            keyMarketMovers: "MOVIMIENTOS CLAVE DEL MERCADO",
+            economicData: "1. Datos Económicos",
+            economicDataDesc: "Reportes como PIB, cifras de empleo e inflación impactan directamente los valores de las divisas. Datos económicos fuertes típicamente fortalecen una divisa, mientras que datos débiles pueden causar depreciación.",
+            centralBankPolicies: "2. Políticas del Banco Central",
+            centralBankDesc: "Las decisiones de tasas de interés y declaraciones de política monetaria de bancos centrales como la Reserva Federal, BCE y Banco de Inglaterra son algunos de los movimientos de mercado más poderosos.",
+            geopoliticalEvents: "3. Eventos Geopolíticos",
+            geopoliticalDesc: "La inestabilidad política, elecciones, guerras comerciales y relaciones internacionales pueden crear volatilidad significativa en los mercados de divisas mientras los traders evalúan el riesgo.",
+            marketSentiment: "4. Sentimiento del Mercado",
+            sentimentDesc: "El estado de ánimo general de los traders - ya sea con riesgo (optimista) o sin riesgo (cauteloso) - influye en cuáles divisas se fortalecen o debilitan durante diferentes condiciones de mercado.",
+            supplyDemand: "OFERTA Y DEMANDA",
+            supplyContent: "Como cualquier mercado, las opciones binarias operan bajo el principio de oferta y demanda. Cuando la demanda de una divisa aumenta (más compradores que vendedores), su valor sube. Cuando la oferta excede la demanda (más vendedores que compradores), su valor cae.",
+            remember: "Recuerda: Cada transacción de opciones binarias implica comprar una divisa y vender otra simultáneamente. Por eso las divisas siempre se cotizan en pares, como EUR/USD o GBP/JPY.",
+          },
+          quiz: {
+            q1: "¿Cuál es el principal impulsor de los valores de las divisas en el trading de opciones binarias?",
+            q1o1: "Movimientos aleatorios del mercado",
+            q1o2: "Indicadores económicos y políticas del banco central",
+            q1o3: "Tendencias de redes sociales",
+            q1a: "Los valores de las divisas son impulsados por factores económicos fundamentales incluyendo indicadores económicos, políticas del banco central y eventos geopolíticos.",
+            q2: "¿Cuál factor impacta directamente los valores de las divisas más?",
+            q2o1: "Reportes de ganancias de empresas",
+            q2o2: "Datos económicos como PIB e inflación",
+            q2o3: "Endosos de celebridades",
+            q2a: "Los datos económicos incluyendo PIB, cifras de empleo e inflación impactan directamente los valores de las divisas.",
+            q3: "¿Por qué las divisas siempre se cotizan en pares?",
+            q3o1: "Tradición de trading",
+            q3o2: "Porque compras una divisa y vendes otra simultáneamente",
+            q3o3: "Convención aleatoria",
+            q3a: "Las divisas se cotizan en pares porque cada transacción de opciones binarias implica comprar una divisa y vender otra al mismo tiempo.",
+          },
+        },
       },
       // Lesson titles for Your Trading Toolkit section
       toolkit: {
@@ -1365,6 +1445,46 @@ export const translations = {
         title: "Suba de Nível",
         subtitle: "Além o Básico",
       },
+      // The Money Makers Lessons (Section 2)
+      moneyMakers: {
+        basics: {
+          title: "Conceitos Básicos",
+          sections: {
+            whatMovesMarkets: "O QUE MOVE OS MERCADOS?",
+            intro1: "Entender o que impulsiona os preços das moedas é essencial para o trading bem-sucedido de opções binárias. Os mercados não se movem aleatoriamente - eles respondem a forças fundamentais que moldam a economia global.",
+            intro2: "No coração do trading de opções binárias está a relação entre as economias de diferentes países. Os valores das moedas flutuam com base em indicadores econômicos, políticas dos bancos centrais e sentimento do mercado.",
+            keyMarketMovers: "MOVIMENTOS-CHAVE DO MERCADO",
+            economicData: "1. Dados Econômicos",
+            economicDataDesc: "Relatórios como PIB, números de emprego e taxas de inflação impactam diretamente os valores das moedas. Dados econômicos fortes geralmente fortalecem uma moeda, enquanto dados fracos podem causar depreciação.",
+            centralBankPolicies: "2. Políticas dos Bancos Centrais",
+            centralBankDesc: "Decisões de taxa de juros e comunicados de política monetária de bancos centrais como o Federal Reserve, BCE e Bank of England são alguns dos movimentos de mercado mais poderosos.",
+            geopoliticalEvents: "3. Eventos Geopolíticos",
+            geopoliticalDesc: "A instabilidade política, eleições, guerras comerciais e relações internacionais podem criar volatilidade significativa nos mercados de moedas conforme os traders avaliam o risco.",
+            marketSentiment: "4. Sentimento do Mercado",
+            sentimentDesc: "O humor geral dos traders - seja com risco (otimista) ou sem risco (cauteloso) - influencia quais moedas se fortalecem ou enfraquecem durante diferentes condições de mercado.",
+            supplyDemand: "OFERTA E DEMANDA",
+            supplyContent: "Como qualquer mercado, as opções binárias funcionam sob o princípio de oferta e demanda. Quando a demanda por uma moeda aumenta (mais compradores que vendedores), seu valor sobe. Quando a oferta excede a demanda (mais vendedores que compradores), seu valor cai.",
+            remember: "Lembre: Cada transação de opções binárias envolve comprar uma moeda e vender outra simultaneamente. É por isso que as moedas são sempre cotadas em pares, como EUR/USD ou GBP/JPY.",
+          },
+          quiz: {
+            q1: "Qual é o principal impulsionador dos valores das moedas no trading de opções binárias?",
+            q1o1: "Movimentos aleatórios do mercado",
+            q1o2: "Indicadores econômicos e políticas do banco central",
+            q1o3: "Tendências de mídia social",
+            q1a: "Os valores das moedas são impulsionados por fatores econômicos fundamentais incluindo indicadores econômicos, políticas do banco central e eventos geopolíticos.",
+            q2: "Qual fator impacta mais diretamente os valores das moedas?",
+            q2o1: "Relatórios de lucros de empresas",
+            q2o2: "Dados econômicos como PIB e inflação",
+            q2o3: "Endossos de celebridades",
+            q2a: "Os dados econômicos incluindo PIB, números de emprego e inflação impactam diretamente os valores das moedas.",
+            q3: "Por que as moedas são sempre cotadas em pares?",
+            q3o1: "Tradição de trading",
+            q3o2: "Porque você compra uma moeda e vende outra simultaneamente",
+            q3o3: "Convenção aleatória",
+            q3a: "As moedas são cotadas em pares porque cada transação de opções binárias envolve comprar uma moeda e vender outra ao mesmo tempo.",
+          },
+        },
+      },
       // Lesson titles for Your Trading Toolkit section
       toolkit: {
         volume: "Indicador de Volume",
@@ -1379,22 +1499,6 @@ export const translations = {
       // Lesson titles for Execute & Profit section
       execute: {
         buyingSelling: "Comprando e Vendendo",
-        tradingStyle: "Escolha Seu Estilo de Trading",
-      },
-      // Lesson titles for Your Trading Toolkit section
-      toolkit: {
-        volume: "Indicador de Volume",
-        movingAverage: "Média Móvel",
-        rsi: "Índice de Força Relativa",
-      },
-      // Lesson titles for Winning Strategies section
-      strategies: {
-        topDown: "Estratégia de Trading de Cima para Baixo",
-        example: "Exemplo",
-      },
-      // Lesson titles for Execute & Profit section
-      execute: {
-        buyingSelling: "Compra e Venda",
         tradingStyle: "Escolha Seu Estilo de Trading",
       },
       // Getting Started Lessons
@@ -1912,21 +2016,45 @@ export const translations = {
         title: "ارتقِ بمستواك",
         subtitle: "ما وراء الأساسيات",
       },
-      // Lesson titles for Your Trading Toolkit section
-      toolkit: {
-        volume: "مؤشر الحجم",
-        movingAverage: "المتوسط المتحرك",
-        rsi: "مؤشر القوة النسبية",
-      },
-      // Lesson titles for Winning Strategies section
-      strategies: {
-        topDown: "استراتيجية التداول من الأعلى إلى الأسفل",
-        example: "مثال",
-      },
-      // Lesson titles for Execute & Profit section
-      execute: {
-        buyingSelling: "الشراء والبيع",
-        tradingStyle: "اختر أسلوب التداول الخاص بك",
+      // The Money Makers Lessons (Section 2)
+      moneyMakers: {
+        basics: {
+          title: "الأساسيات",
+          sections: {
+            whatMovesMarkets: "ما الذي يحرك الأسواق؟",
+            intro1: "فهم ما يدفع أسعار العملات أمر ضروري لتداول الخيارات الثنائية الناجح. الأسواق لا تتحرك بشكل عشوائي - فهي تستجيب للقوى الأساسية التي تشكل الاقتصاد العالمي.",
+            intro2: "في قلب تداول الخيارات الثنائية تكمن العلاقة بين اقتصادات الدول المختلفة. تتقلب قيم العملات بناءً على المؤشرات الاقتصادية وسياسات البنك المركزي والمشاعر السوقية.",
+            keyMarketMovers: "محركات السوق الرئيسية",
+            economicData: "1. البيانات الاقتصادية",
+            economicDataDesc: "تقارير مثل الناتج المحلي الإجمالي وأرقام التوظيف ومعدلات التضخم تؤثر بشكل مباشر على قيم العملات. البيانات الاقتصادية القوية عادة ما تقوي العملة، بينما البيانات الضعيفة قد تسبب الاستهلاك.",
+            centralBankPolicies: "2. سياسات البنك المركزي",
+            centralBankDesc: "قرارات أسعار الفائدة والتصريحات حول السياسة النقدية من البنوك المركزية مثل الاحتياطي الفيدرالي والبنك المركزي الأوروبي وبنك إنجلترا تعتبر من أقوى محركات السوق.",
+            geopoliticalEvents: "3. الأحداث الجيوسياسية",
+            geopoliticalDesc: "عدم الاستقرار السياسي والانتخابات والحروب التجارية والعلاقات الدولية يمكن أن تحدث تقلبات كبيرة في أسواق العملات حيث يقيم المتداولون المخاطر.",
+            marketSentiment: "4. معنويات السوق",
+            sentimentDesc: "الحالة النفسية العامة للمتداولين - سواء كانت طلب مخاطر (متفائلة) أو تجنب مخاطر (حذرة) - تؤثر على أي العملات تقوى أو تضعف خلال ظروف السوق المختلفة.",
+            supplyDemand: "العرض والطلب",
+            supplyContent: "مثل أي سوق، تعمل الخيارات الثنائية على مبدأ العرض والطلب. عندما يزداد الطلب على عملة ما (عدد مشترين أكثر من بائعين)، ترتفع قيمتها. عندما يتجاوز العرض الطلب (عدد بائعين أكثر من مشترين)، تنخفض قيمتها.",
+            remember: "تذكر: كل معاملة في الخيارات الثنائية تتضمن شراء عملة واحدة وبيع أخرى في نفس الوقت. هذا هو السبب في أن العملات تُقتبس دائماً في أزواج، مثل EUR/USD أو GBP/JPY.",
+          },
+          quiz: {
+            q1: "ما هو المحرك الأساسي لقيم العملات في تداول الخيارات الثنائية؟",
+            q1o1: "حركات السوق العشوائية",
+            q1o2: "المؤشرات الاقتصادية وسياسات البنك المركزي",
+            q1o3: "اتجاهات وسائل التواصل الاجتماعي",
+            q1a: "يتم تحديد قيم العملات بواسطة عوامل اقتصادية أساسية تشمل المؤشرات الاقتصادية وسياسات البنك المركزي والأحداث الجيوسياسية.",
+            q2: "أي عامل يؤثر بشكل مباشر على قيم العملات؟",
+            q2o1: "تقارير أرباح الشركات",
+            q2o2: "البيانات الاقتصادية مثل الناتج المحلي الإجمالي والتضخم",
+            q2o3: "تأييدات المشاهير",
+            q2a: "البيانات الاقتصادية بما فيها الناتج المحلي الإجمالي وأرقام التوظيف ومعدلات التضخم تؤثر بشكل مباشر على قيم العملات.",
+            q3: "لماذا تُقتبس العملات دائماً في أزواج؟",
+            q3o1: "تقليد التداول",
+            q3o2: "لأنك تشتري عملة واحدة وتبيع أخرى في نفس الوقت",
+            q3o3: "اتفاقية عشوائية",
+            q3a: "تُقتبس العملات في أزواج لأن كل معاملة في الخيارات الثنائية تتضمن شراء عملة واحدة وبيع أخرى في نفس الوقت.",
+          },
+        },
       },
       // Lesson titles for Your Trading Toolkit section
       toolkit: {

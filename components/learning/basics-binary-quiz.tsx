@@ -1,29 +1,34 @@
 "use client"
 
 import { Quiz } from "./quiz"
-
-const quizQuestions = [
-  {
-    question: "What typically happens to a currency when its country releases strong economic data?",
-    options: ["The currency weakens", "The currency strengthens", "Nothing happens"],
-    correctAnswer: 1,
-  },
-  {
-    question: "Which institution's decisions are among the most powerful market movers?",
-    options: ["Stock exchanges", "Central banks", "Trading platforms"],
-    correctAnswer: 1,
-  },
-  {
-    question: "Why are currencies always quoted in pairs in binary options?",
-    options: [
-      "To make trading more complex",
-      "Because you're always buying one currency and selling another",
-      "It's just a tradition",
-    ],
-    correctAnswer: 1,
-  },
-]
+import { useLanguage } from "@/lib/i18n/language-context"
+import { translations } from "@/lib/i18n/translations"
 
 export function BasicsBinaryQuiz() {
-  return <Quiz questions={quizQuestions} lessonTitle="Basics" />
+  const { language } = useLanguage()
+  const t = translations[language]
+  const quiz = t.learning.moneyMakers.basics.quiz
+
+  const quizQuestions = [
+    {
+      question: quiz.q1,
+      options: [quiz.q1o1, quiz.q1o2, quiz.q1o3],
+      correctAnswer: 1,
+      explanation: quiz.q1a,
+    },
+    {
+      question: quiz.q2,
+      options: [quiz.q2o1, quiz.q2o2, quiz.q2o3],
+      correctAnswer: 1,
+      explanation: quiz.q2a,
+    },
+    {
+      question: quiz.q3,
+      options: [quiz.q3o1, quiz.q3o2, quiz.q3o3],
+      correctAnswer: 1,
+      explanation: quiz.q3a,
+    },
+  ]
+
+  return <Quiz questions={quizQuestions} />
 }
