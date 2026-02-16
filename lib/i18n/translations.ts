@@ -36,6 +36,7 @@ export const translations = {
       howMuchBinary: "How Much Can You Make Trading?",
       whenToTrade: "When to Trade",
       socialTrading: "Social Trading",
+      basics: "Basics",
     },
 
     // Header
@@ -495,6 +496,7 @@ export const translations = {
       howMuchBinary: "¿Cuánto Puedes Ganar Operando?",
       whenToTrade: "Cuándo Operar",
       socialTrading: "Trading Social",
+      basics: "Conceptos Básicos",
     },
 
     // Header
@@ -954,6 +956,7 @@ export const translations = {
       howMuchBinary: "Quanto Você Pode Ganhar Negociando?",
       whenToTrade: "Quando Negociar",
       socialTrading: "Trading Social",
+      basics: "Conceitos Básicos",
     },
 
     // Header
@@ -1413,6 +1416,7 @@ export const translations = {
       howMuchBinary: "كم يمكنك أن تكسب من التداول؟",
       whenToTrade: "متى تتداول",
       socialTrading: "التداول الاجتماعي",
+      basics: "أساسيات",
     },
 
     // Header
@@ -1684,7 +1688,7 @@ export const translations = {
             example2Result: "$674 و $2,262",
             example2Text: "من الربح شهرياً",
             startContentEnd:
-              "ليس سيئاً، أليس كذلك؟ على الرغم من أنه من الممكن البدء برأس مال منخفض مثل 10 دولارات مع المنصات الحديثة، للحصول على ربح لائق من الأفضل البدء بـ 1000 - 5000 دولار.",
+              "ليس سيئاً، أليس كذلك؟ على الرغم من أنه من الممكن البدء برأس مال منخفض مثل 10 دولارات مع ��لمنصات الحديثة، للحصول على ربح لائق من الأفضل البدء بـ 1000 - 5000 دولار.",
             note: "لا بأس بالبدء برأس مال أقل، فقط سيستغرق وقتاً أطول لبناء محفظتك.",
             isItEasy: "هل من السهل تعلم التداول؟",
           },
