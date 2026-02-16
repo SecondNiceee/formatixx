@@ -124,7 +124,7 @@ export function Quiz({ questions }: QuizProps) {
 
       <div className="mb-6">
         <p className="text-white/60 text-sm mb-2">
-          Question {currentQuestion + 1}/{questions.length}
+          {t.common.question} {currentQuestion + 1}/{questions.length}
         </p>
         <h3 className="text-xl font-semibold text-white">{question.question}</h3>
       </div>

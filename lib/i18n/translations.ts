@@ -30,6 +30,36 @@ export const translations = {
       congratulations: "Congratulations!",
       completedLesson: "You have successfully completed this lesson!",
       takeAgain: "Take Again",
+      question: "Question",
+      copyTrading: "Copy Trading",
+      whyTradeBinary: "Why Trade Binary Options?",
+      howMuchBinary: "How Much Can You Make Trading?",
+      whenToTrade: "When to Trade",
+      socialTrading: "Social Trading",
+      basics: "Basics",
+      // The Money Makers Section Lessons
+      language: "The Language of Binary Options",
+      fundamentals: "Following the Fundamentals",
+      gold: "Gold Prices and Binary Options",
+      stocks: "Investing in Stocks vs Binary Options",
+      crudeOil: "Crude Oil Prices and Binary Options",
+      // Reading the Market Section Lessons
+      navigating: "Navigating The Charts",
+      bullsBears: "Bulls and Bears",
+      trends: "Understanding Trends",
+      support: "Support And Resistance",
+      patterns: "Chart Patterns",
+      candlestick: "Candlestick Patterns",
+      // Your Trading Toolkit Section Lessons
+      volume: "Volume Indicator",
+      movingAverage: "Moving Average",
+      rsi: "Relative Strength Index",
+      // Winning Strategies Section Lessons
+      topDown: "Top Down Trading Strategy",
+      strategyExample: "Example",
+      // Execute & Profit Section Lessons
+      buyingSelling: "Buying and Selling",
+      tradingStyle: "Pick Your Trading Style",
     },
 
     // Header
@@ -227,6 +257,43 @@ export const translations = {
       section3: {
         title: "Reading the Market",
         subtitle: "Master the Charts",
+      },
+      // Lesson titles for Reading the Market section
+      readingMarket: {
+        navigating: "Navigating The Charts",
+        bullsBears: "Bulls and Bears",
+        trends: "Understanding Trends",
+        support: "Support And Resistance",
+        patterns: "Chart Patterns",
+        candlestick: "Candlestick Patterns",
+      },
+      section4: {
+        title: "Your Trading Toolkit",
+        subtitle: "Essential Indicators",
+      },
+      section5: {
+        title: "Winning Strategies",
+        subtitle: "Trade Like a Pro",
+      },
+      section6: {
+        title: "Execute & Profit",
+        subtitle: "Making Your Move",
+      },
+      // Lesson titles for Your Trading Toolkit section
+      toolkit: {
+        volume: "Volume Indicator",
+        movingAverage: "Moving Average",
+        rsi: "Relative Strength Index",
+      },
+      // Lesson titles for Winning Strategies section
+      strategies: {
+        topDown: "Top Down Trading Strategy",
+        example: "Example",
+      },
+      // Lesson titles for Execute & Profit section
+      execute: {
+        buyingSelling: "Buying and Selling",
+        tradingStyle: "Pick Your Trading Style",
       },
       // Getting Started Lessons
       lessons: {
@@ -483,6 +550,36 @@ export const translations = {
       congratulations: "¡Felicitaciones!",
       completedLesson: "¡Has completado exitosamente esta lección!",
       takeAgain: "Intentar de Nuevo",
+      question: "Pregunta",
+      copyTrading: "Copy Trading",
+      whyTradeBinary: "¿Por Qué Operar con Opciones Binarias?",
+      howMuchBinary: "¿Cuánto Puedes Ganar Operando?",
+      whenToTrade: "Cuándo Operar",
+      socialTrading: "Trading Social",
+      basics: "Conceptos Básicos",
+      // The Money Makers Section Lessons
+      language: "El Lenguaje de las Opciones Binarias",
+      fundamentals: "Siguiendo los Fundamentos",
+      gold: "Precios del Oro y Opciones Binarias",
+      stocks: "Invertir en Acciones vs Opciones Binarias",
+      crudeOil: "Precios del Petróleo Crudo y Opciones Binarias",
+      // Reading the Market Section Lessons
+      navigating: "Navegando por los Gráficos",
+      bullsBears: "Alcistas y Bajistas",
+      trends: "Entendiendo las Tendencias",
+      support: "Soporte y Resistencia",
+      patterns: "Patrones de Gráficos",
+      candlestick: "Patrones de Velas",
+      // Your Trading Toolkit Section Lessons
+      volume: "Indicador de Volumen",
+      movingAverage: "Promedio Móvil",
+      rsi: "Índice de Fuerza Relativa",
+      // Winning Strategies Section Lessons
+      topDown: "Estrategia de Trading de Arriba hacia Abajo",
+      strategyExample: "Ejemplo",
+      // Execute & Profit Section Lessons
+      buyingSelling: "Compra y Venta",
+      tradingStyle: "Elige Tu Estilo de Trading",
     },
 
     // Header
@@ -681,6 +778,43 @@ export const translations = {
       section3: {
         title: "Leyendo el Mercado",
         subtitle: "Domina los Gráficos",
+      },
+      // Lesson titles for Reading the Market section
+      readingMarket: {
+        navigating: "Navegando por los Gráficos",
+        bullsBears: "Alcistas y Bajistas",
+        trends: "Entendiendo las Tendencias",
+        support: "Soporte y Resistencia",
+        patterns: "Patrones de Gráficos",
+        candlestick: "Patrones de Velas",
+      },
+      section4: {
+        title: "Tu Kit de Herramientas de Trading",
+        subtitle: "Indicadores Esenciales",
+      },
+      section5: {
+        title: "Estrategias Ganadoras",
+        subtitle: "Opera Como un Profesional",
+      },
+      section6: {
+        title: "Ejecuta y Gana",
+        subtitle: "Haz tu Movimiento",
+      },
+      // Lesson titles for Your Trading Toolkit section
+      toolkit: {
+        volume: "Indicador de Volumen",
+        movingAverage: "Promedio Móvil",
+        rsi: "Índice de Fuerza Relativa",
+      },
+      // Lesson titles for Winning Strategies section
+      strategies: {
+        topDown: "Estrategia de Trading de Arriba hacia Abajo",
+        example: "Ejemplo",
+      },
+      // Lesson titles for Execute & Profit section
+      execute: {
+        buyingSelling: "Compra y Venta",
+        tradingStyle: "Elige Tu Estilo de Trading",
       },
       // Getting Started Lessons
       lessons: {
@@ -936,6 +1070,36 @@ export const translations = {
       congratulations: "Parabéns!",
       completedLesson: "Você completou com sucesso esta lição!",
       takeAgain: "Tentar Novamente",
+      question: "Pergunta",
+      copyTrading: "Copy Trading",
+      whyTradeBinary: "Por Que Negociar Opções Binárias?",
+      howMuchBinary: "Quanto Você Pode Ganhar Negociando?",
+      whenToTrade: "Quando Negociar",
+      socialTrading: "Trading Social",
+      basics: "Conceitos Básicos",
+      // The Money Makers Section Lessons
+      language: "A Linguagem das Opções Binárias",
+      fundamentals: "Seguindo os Fundamentos",
+      gold: "Preços do Ouro e Opções Binárias",
+      stocks: "Investir em Ações vs Opções Binárias",
+      crudeOil: "Preços do Petróleo Bruto e Opções Binárias",
+      // Reading the Market Section Lessons
+      navigating: "Navegando pelos Gráficos",
+      bullsBears: "Touros e Ursos",
+      trends: "Entendendo as Tendências",
+      support: "Suporte e Resistência",
+      patterns: "Padrões de Gráficos",
+      candlestick: "Padrões de Velas",
+      // Your Trading Toolkit Section Lessons
+      volume: "Indicador de Volume",
+      movingAverage: "Média Móvel",
+      rsi: "Índice de Força Relativa",
+      // Winning Strategies Section Lessons
+      topDown: "Estratégia de Trading de Cima para Baixo",
+      strategyExample: "Exemplo",
+      // Execute & Profit Section Lessons
+      buyingSelling: "Compra e Venda",
+      tradingStyle: "Escolha Seu Estilo de Trading",
     },
 
     // Header
@@ -1134,6 +1298,43 @@ export const translations = {
       section3: {
         title: "Lendo o Mercado",
         subtitle: "Domine os Gráficos",
+      },
+      // Lesson titles for Reading the Market section
+      readingMarket: {
+        navigating: "Navegando pelos Gráficos",
+        bullsBears: "Touros e Ursos",
+        trends: "Entendendo as Tendências",
+        support: "Suporte e Resistência",
+        patterns: "Padrões de Gráficos",
+        candlestick: "Padrões de Velas",
+      },
+      section4: {
+        title: "Seu Kit de Ferramentas de Trading",
+        subtitle: "Indicadores Essenciais",
+      },
+      section5: {
+        title: "Estratégias Vencedoras",
+        subtitle: "Negocie Como um Profissional",
+      },
+      section6: {
+        title: "Execute e Lucre",
+        subtitle: "Faça Seu Movimento",
+      },
+      // Lesson titles for Your Trading Toolkit section
+      toolkit: {
+        volume: "Indicador de Volume",
+        movingAverage: "Média Móvel",
+        rsi: "Índice de Força Relativa",
+      },
+      // Lesson titles for Winning Strategies section
+      strategies: {
+        topDown: "Estratégia de Trading de Cima para Baixo",
+        example: "Exemplo",
+      },
+      // Lesson titles for Execute & Profit section
+      execute: {
+        buyingSelling: "Compra e Venda",
+        tradingStyle: "Escolha Seu Estilo de Trading",
       },
       // Getting Started Lessons
       lessons: {
@@ -1389,6 +1590,36 @@ export const translations = {
       congratulations: "تهانينا!",
       completedLesson: "لقد أكملت هذا الدرس بنجاح!",
       takeAgain: "حاول مرة أخرى",
+      question: "السؤال",
+      copyTrading: "Copy Trading",
+      whyTradeBinary: "لماذا تتداول الخيارات الثنائية؟",
+      howMuchBinary: "كم يمكنك أن تكسب من التداول؟",
+      whenToTrade: "متى تتداول",
+      socialTrading: "التداول الاجتماعي",
+      basics: "أساسيات",
+      // The Money Makers Section Lessons
+      language: "لغة الخيارات الثنائية",
+      fundamentals: "متابعة الأساسيات",
+      gold: "أسعار الذهب والخيارات الثنائية",
+      stocks: "الاستثمار في الأسهم مقابل الخيارات الثنائية",
+      crudeOil: "أسعار النفط الخام والخيارات الثنائية",
+      // Reading the Market Section Lessons
+      navigating: "التنقل في الرسوم البيانية",
+      bullsBears: "الثيران والدببة",
+      trends: "فهم الاتجاهات",
+      support: "الدعم والمقاومة",
+      patterns: "أنماط الرسوم البيانية",
+      candlestick: "أنماط الشموع",
+      // Your Trading Toolkit Section Lessons
+      volume: "مؤشر الحجم",
+      movingAverage: "المتوسط المتحرك",
+      rsi: "مؤشر القوة النسبية",
+      // Winning Strategies Section Lessons
+      topDown: "استراتيجية التداول من الأعلى إلى الأسفل",
+      strategyExample: "مثال",
+      // Execute & Profit Section Lessons
+      buyingSelling: "الشراء والبيع",
+      tradingStyle: "اختر أسلوب التداول الخاص بك",
     },
 
     // Header
@@ -1443,7 +1674,7 @@ export const translations = {
       trader1Quote: "بعد 10 سنوات في السوق، أخيراً وجدت أداة تعمل حقاً. تحسنت نتائجي بنسبة 300%!",
       trader2Name: "إيزابيلا ألفيس",
       trader2Role: "متداول سوينج",
-      trader2Quote: "كأم لطفلين، أحتاج تحليلاً سريعاً وفعالاً. FoMatrix يتيح لي التداول في فترات استراحتي!",
+      trader2Quote: "كأم لطفلين، أحتاج تحليلاً سريعاً وفعالاً. FoMatrix يتيح لي التداول في فترات ا��تراحتي!",
       trader3Name: "كارلوس إدواردو",
       trader3Role: "متداول سكالبينج",
       trader3Quote: "طالب اقتصاد يتداول لدفع رسوم الجامعة. مع FoMatrix، أستطيع أن أكون ثابتاً في العمليات!",
@@ -1584,6 +1815,43 @@ export const translations = {
         title: "قراءة السوق",
         subtitle: "احترف الرسوم البيانية",
       },
+      // Lesson titles for Reading the Market section
+      readingMarket: {
+        navigating: "التنقل في الرسوم البيانية",
+        bullsBears: "الثيران والدببة",
+        trends: "فهم الاتجاهات",
+        support: "الدعم والمقاومة",
+        patterns: "أنماط الرسوم البيانية",
+        candlestick: "أنماط الشموع",
+      },
+      section4: {
+        title: "مجموعة أدوات التداول الخاصة بك",
+        subtitle: "المؤشرات الأساسية",
+      },
+      section5: {
+        title: "استراتيجيات الفوز",
+        subtitle: "تداول مثل المحترف",
+      },
+      section6: {
+        title: "نفذ واربح",
+        subtitle: "اصنع حركتك",
+      },
+      // Lesson titles for Your Trading Toolkit section
+      toolkit: {
+        volume: "مؤشر الحجم",
+        movingAverage: "المتوسط المتحرك",
+        rsi: "مؤشر القوة النسبية",
+      },
+      // Lesson titles for Winning Strategies section
+      strategies: {
+        topDown: "استراتيجية التداول من الأعلى إلى الأسفل",
+        example: "مثال",
+      },
+      // Lesson titles for Execute & Profit section
+      execute: {
+        buyingSelling: "الشراء والبيع",
+        tradingStyle: "اختر أسلوب التداول الخاص بك",
+      },
       // Getting Started Lessons
       lessons: {
         whyTradeBinary: {
@@ -1605,10 +1873,10 @@ export const translations = {
             ],
             crisisContent:
               "إذا كانت توقعاتك صحيحة، فيمكن أن تظل الخيارات الثنائية مربحة حتى في أسوأ الأوقات لأن العملات يتم تداولها دائماً في أزواج. عندما تنخفض قيمة عملة واحدة، ترتفع قيمة العملة الأخرى.",
-            crisisProfit: "رائع جداً، أليس كذلك؟ يمكنك الربح، بغض النظر عما إذا كان السوق يتجه نحو الأعلى أو الأسفل، لكن إذا كان توقعك خاطئاً، يمكنك أن تخسر بنفس القدر.",
+            crisisProfit: "رائع جداً، أليس كذلك؟ يمكنك الربح، ب��ض النظر عما إذا كان السوق يتجه نحو الأعلى أو الأسفل، لكن إذا كان توقعك خاطئاً، يمكنك أن تخسر بنفس القدر.",
             hammock: "تداول وأنت مسترخٍ في أرجوحة",
             hammockContent:
-              "يمكنك الوصول إلى عالم التداول من أي مكان وأنت مسترخٍ في أرجوحة! كل ما تحتاجه هو جهاز كمبيوتر و/أو هاتف ذكي واتصال بالإنترنت. يستخدم العديد من متداولي الخيارات الثنائية الناجحين تطبيقات التداول المتقدمة على هواتفهم الذكية iPhone أو Android والأجهزة اللوحية. لذلك اختر نمط الحياة الذي يناسب أهدافك التجارية.",
+              "يمكنك الوصول إلى عالم التداول من أي مكان وأنت مسترخٍ في أرجوحة! كل ما تحتاجه هو جها�� كمبيوتر و/أو هاتف ذكي واتصال بالإنترنت. يستخدم العديد من متداولي الخيارات الثنائية الناجحين تطبيقات التداول المتقدمة على هواتفهم الذكية iPhone أو Android والأجهزة اللوحية. لذلك اختر نمط الحياة الذي يناسب أهدافك التجارية.",
             startWith: "ابدأ بـ 250 دولار",
             startWithContent1:
               "على عكس أي سوق مالي آخر، تتمتع الخيارات الثنائية بتكاليف دخول منخفضة بسبب العدد الكبير من المشاركين في السوق. بالإضافة إلى ذلك، فإن المنافسة المتزايدة بين الوسطاء تخفض عمولاتهم وبالتالي تكاليف المعاملات.",
@@ -1660,7 +1928,7 @@ export const translations = {
             example2Result: "$674 و $2,262",
             example2Text: "من الربح شهرياً",
             startContentEnd:
-              "ليس سيئاً، أليس كذلك؟ على الرغم من أنه من الممكن البدء برأس مال منخفض مثل 10 دولارات مع المنصات الحديثة، للحصول على ربح لائق من الأفضل البدء بـ 1000 - 5000 دولار.",
+              "ليس سيئاً، أليس كذلك؟ على الرغم من أنه من الممكن البدء برأس مال منخفض مثل 10 دولارات مع ��لمنصات الحديثة، للحصول على ربح لائق من الأفضل البدء بـ 1000 - 5000 دولار.",
             note: "لا بأس بالبدء برأس مال أقل، فقط سيستغرق وقتاً أطول لبناء محفظتك.",
             isItEasy: "هل من السهل تعلم التداول؟",
           },
@@ -1683,7 +1951,7 @@ export const translations = {
             intro: "متى تتداول",
             subtitle: "التوقيت هو كل شيء في التداول",
             content1:
-              "التوقيت هو كل شيء في التداول، ومعرفة أكثر الأوقات ربحية للدخول إلى السوق يمكن أن تكون عاملاً رئيسياً في نتائجك. في هذا الدرس، سنوجهك خلال أفضل الأوقات للتداول كل فئة أصول.",
+              "التوقيت هو كل شيء في التداول، ومعرفة أكثر الأوقات ربحية للدخول إلى السوق يمكن أن تكون عاملاً رئيسياً في نتائجك. في هذا الدرس، سنوجهك خلال أف��ل الأوقات للتداول كل فئة أصول.",
             windowOfOpportunity: "نافذة الفرصة",
             windowContent:
               "هناك فترة زمنية محددة تعتبر أفضل وقت للتداول في جميع الأصول. باختصار، هو عندما يكون هناك أكثر نشاط في الأسواق، مع مشاركة المتداولين من حول العالم.",
