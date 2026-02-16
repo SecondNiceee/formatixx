@@ -42,12 +42,12 @@ const getLearningTopics = (t: any) => [
     subtitle: t.learning.section3.subtitle || "Master the Charts",
     icon: BarChart3,
     lessons: [
-      { title: "Navigating The Charts", href: "/learning/navigating-the-charts" },
-      { title: "Bulls and Bears", href: "/learning/bulls-and-bears" },
-      { title: "Understanding Trends", href: "/learning/understanding-trends" },
-      { title: "Support And Resistance", href: "/learning/support-and-resistance" },
-      { title: "Chart Patterns", href: "/learning/chart-patterns" },
-      { title: "Candlestick Patterns", href: "/learning/candlestick-patterns" },
+      { title: t.learning.readingMarket.navigating, href: "/learning/navigating-the-charts" },
+      { title: t.learning.readingMarket.bullsBears, href: "/learning/bulls-and-bears" },
+      { title: t.learning.readingMarket.trends, href: "/learning/understanding-trends" },
+      { title: t.learning.readingMarket.support, href: "/learning/support-and-resistance" },
+      { title: t.learning.readingMarket.patterns, href: "/learning/chart-patterns" },
+      { title: t.learning.readingMarket.candlestick, href: "/learning/candlestick-patterns" },
     ],
   },
   {
